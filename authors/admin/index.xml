@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Susy Echeverria-L</title>
+    <link>https://susyelo.github.io/authors/admin/</link>
+    <description>Recent content on Susy Echeverria-L</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Susy Echeverria-L {year}</copyright>
+    
+	    <atom:link href="https://susyelo.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://susyelo.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://susyelo.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am an early career researcher focusing on the study of large-scale patterns of biodiversity, and
+the ecological and evolutionary processes that shaped them. I am also interested in understanding
+how human pressures have affected and will affect biodiversity in tropical regions. Throughout my
+career, I have gained extensive experience in the field of data science including data processing and
+visualisation, advanced statistical and spatial analysis. In my work, I particularly enjoy exploring and
+analysing biological data through visualisations tools.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
