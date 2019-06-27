@@ -3,6 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://susyelo.github.io/tags/bien/</loc>
+    <lastmod>2019-06-26T20:58:28-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://susyelo.github.io/tags/biomes/</loc>
+    <lastmod>2019-06-26T20:58:28-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://susyelo.github.io/tags/functional-diversity/</loc>
+    <lastmod>2019-06-26T20:58:28-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://susyelo.github.io/tags/new-world/</loc>
+    <lastmod>2019-06-26T20:58:28-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://susyelo.github.io/project/bien/bien/</loc>
+    <lastmod>2019-06-26T20:58:28-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://susyelo.github.io/project/</loc>
+    <lastmod>2019-06-26T20:58:28-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://susyelo.github.io/</loc>
+    <lastmod>2019-06-26T20:58:28-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://susyelo.github.io/tags/</loc>
+    <lastmod>2019-06-26T20:58:28-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://susyelo.github.io/authors/admin/</loc>
     <lastmod>2019-06-23T20:42:30-04:00</lastmod>
   </url>
@@ -36,16 +83,6 @@
   <url>
     <loc>https://susyelo.github.io/talk/</loc>
     <lastmod>2019-06-23T17:48:23-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://susyelo.github.io/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://susyelo.github.io/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
