@@ -7,15 +7,24 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Susy Echeverría-L {year}</copyright>
-    <lastBuildDate>Fri, 18 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Nov 2018 12:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://susyelo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Plant Functional Diversity</title>
+      <link>https://susyelo.github.io/tags/plant-functional-diversity/</link>
+      <pubDate>Wed, 07 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://susyelo.github.io/tags/plant-functional-diversity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>BIEN</title>
       <link>https://susyelo.github.io/tags/bien/</link>
-      <pubDate>Fri, 18 Aug 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://susyelo.github.io/tags/bien/</guid>
       <description></description>
@@ -24,7 +33,7 @@
     <item>
       <title>Biomes</title>
       <link>https://susyelo.github.io/tags/biomes/</link>
-      <pubDate>Fri, 18 Aug 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://susyelo.github.io/tags/biomes/</guid>
       <description></description>
@@ -33,7 +42,7 @@
     <item>
       <title>Functional diversity</title>
       <link>https://susyelo.github.io/tags/functional-diversity/</link>
-      <pubDate>Fri, 18 Aug 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://susyelo.github.io/tags/functional-diversity/</guid>
       <description></description>
@@ -42,7 +51,7 @@
     <item>
       <title>New World</title>
       <link>https://susyelo.github.io/tags/new-world/</link>
-      <pubDate>Fri, 18 Aug 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://susyelo.github.io/tags/new-world/</guid>
       <description></description>

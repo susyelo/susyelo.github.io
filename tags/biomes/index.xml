@@ -7,17 +7,17 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Susy Echeverría-L {year}</copyright>
-    <lastBuildDate>Fri, 18 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://susyelo.github.io/tags/biomes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Plant Functional Diversity</title>
-      <link>https://susyelo.github.io/project/bien/bien/</link>
-      <pubDate>Fri, 18 Aug 2017 00:00:00 +0000</pubDate>
+      <link>https://susyelo.github.io/project/func_div/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://susyelo.github.io/project/bien/bien/</guid>
+      <guid>https://susyelo.github.io/project/func_div/</guid>
       <description>&lt;p&gt;Across biomes, plant species have been shown to occupy a common set of global functional “spectra”, reflecting variation in overall plant size, leaf economics, and hydraulics. Still, comprehensive measures of functional diversity and assessments of functional similarity have not been compared across biomes at continental to global scales. In this project, we examine distributions of functional diversity of plant species across the biomes of North and South America, based on distributional information for &amp;gt; 80,000 vascular plant species and functional trait data for ca. 8,000 of those species which come from the &lt;a href=&#34;http://bien.nceas.ucsb.edu/bien/&#34; target=&#34;_blank&#34;&gt;BIEN database&lt;/a&gt; . First, we show that despite progress in data integration and synthesis, significant knowledge shortfalls persist that limit our ability to quantify the functional biodiversity of biomes. Second, our analyses of the available data show that all the biomes in North and South America share a common pattern–most geographically common, widespread species in any biome tend to be functionally similar whereas the most functionally distinctive species are restricted in their distribution. Third, when only the widespread and functionally similar species in each biome are considered, biomes can be more readily distinguished functionally, and patterns of dissimilarity between biomes appear to reflect a correspondence between climate and functional niche space.&lt;/p&gt;
 </description>
     </item>
