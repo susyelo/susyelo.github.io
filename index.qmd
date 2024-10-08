@@ -1,11 +1,29 @@
 ---
-title: "susyelo_website"
+title: "Susy Echeverria-Londono"
+image: images/profile.jpeg
+about:
+  template: broadside
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I'm a Public Health and Environmental Research Consultant. I use large, complex datasets and multiple data-science approaches to explore patterns of public health coverage across the globe, as well as understanding the complex relationships between biodiversity, environment, and human impact. 
 
-```{r}
-1 + 1
-```
+I have over ten years of experience in conducting and publishing cutting-edge research in the field of public health and life science, using various tools and methods in data analysis, GIS, and statistical modelling, particularly with R programming.
+
+
+Professional Experience:
+
+- Research Consultant and Research Associate. Vaccine Impact Modelling Consortium (VIMC), Department of Infectious Disease Epidemiology. Imperial College London, UK.
+
+- Visiting Scholar. Biological Sciences Department. University of Pittsburgh, PA, USA.
+
+- NSF Postdoctoral Associate. Biology department. Kenyon College, OH, USA. 
+
+- Lecturer and demonstrator. The Natural History Museum and Imperial College London, UK
+
+
+
+
+
+
+

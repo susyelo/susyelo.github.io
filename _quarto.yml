@@ -2,18 +2,25 @@ project:
   type: website
 
 website:
-  title: "susyelo_website"
+  title: "Susy Echeverria-Londono"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: About
+      - href: education.qmd
+        text: Education
+      - href: publicHealth.qmd
+        text: Public Health work
+      - href: biodiversity.qmd
+        text: Biodiversity work
 
 format:
   html:
-    theme: cosmo
+    theme: Litera
+    page-layout: article
     css: styles.css
     toc: true
+    link-external-newwindow: true
+    
 
-editor: visual
-
+editor: source
