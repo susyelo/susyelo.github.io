@@ -4,7 +4,7 @@ project:
 website:
   title: "Susy Echeverria-Londono"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: About
       - href: education.qmd
@@ -13,12 +13,13 @@ website:
         text: Public Health work
       - href: biodiversity.qmd
         text: Biodiversity work
+      - href: visualisations.qmd
+        text: Visualisations
+
 
 format:
   html:
-    theme: Litera
-    page-layout: article
-    css: styles.css
+    theme: [sandstone, _variables.scss]
     toc: true
     link-external-newwindow: true
     

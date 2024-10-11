@@ -1,17 +1,36 @@
 ---
-title: "Susy Echeverria-Londono"
-image: images/profile.jpeg
+title: "Susy Echeverria-Londono, PhD. "
+image: images/Profile.jpg
 about:
-  template: broadside
+  template: trestles
+  links:
+    - text: GitHub
+      icon: github
+      url: "https://github.com/susyelo"
+    - text: ORCID
+      url: "https://orcid.org/0000-0002-0038-146X"
+    - text: Email
+      url: "mailto:susyelo@gmail.com"
+    - text: CV
+      url: "https://github.com/susyelo/CV/blob/master/Extended_CV/CV_susy_english.pdf"
+    - text: "{{< iconify fa6-brands linkedin >}}"
+      url: "https://linkedin.com/in/susyelo"
+    - text: "{{< iconify fa6-brands google-scholar >}}"
+      url: "https://scholar.google.co.uk/citations?user=flRj5KMAAAAJ&hl=en"
+
 ---
 
+::: {.column-page}
+
+## Bio
 
 I'm a Public Health and Environmental Research Consultant. I use large, complex datasets and multiple data-science approaches to explore patterns of public health coverage across the globe, as well as understanding the complex relationships between biodiversity, environment, and human impact. 
 
 I have over ten years of experience in conducting and publishing cutting-edge research in the field of public health and life science, using various tools and methods in data analysis, GIS, and statistical modelling, particularly with R programming.
 
 
-Professional Experience:
+
+## Professional Experience
 
 - Research Consultant and Research Associate. Vaccine Impact Modelling Consortium (VIMC), Department of Infectious Disease Epidemiology. Imperial College London, UK.
 
@@ -21,6 +40,7 @@ Professional Experience:
 
 - Lecturer and demonstrator. The Natural History Museum and Imperial College London, UK
 
+:::
 
 
 

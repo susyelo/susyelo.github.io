@@ -1,0 +1,42 @@
+---
+title: "Visualisations"
+---
+
+::: {layout-ncol=2}
+
+## Public Health
+
+
+::: {.card}
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S0264410X22011574-gr6.jpg){.lightbox}
+
+Change of deaths averted per 100,000 live births in 2019 under the different scenarios of inequality reduction. 
+<https://doi.org/10.1016/j.vaccine.2022.09.049>.
+:::
+
+
+![Source: https://doi.org/10.1016/j.vaccine.2022.09.049](https://ars.els-cdn.com/content/image/1-s2.0-S0264410X22011574-gr6.jpg "Title: Change of deaths averted per 100,000 live births in 2019 under the different scenarios of inequality reduction. "){.lightbox}
+
+![Source: https://link.springer.com/article/10.1186/s12889-021-12040-9](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12889-021-12040-9/MediaObjects/12889_2021_12040_Fig1_HTML.png?as=webp "Title: Fully vaccinated persons (FVPs) and mean estimates of deaths averted for hepatitis B (HepB) in Country A, measles in Country B and yellow fever (YF) in Country C from 2000 to 2017. "){.lightbox}
+
+
+![Source: https://doi.org/10.7554/eLife.67635](https://iiif.elifesciences.org/lax/67635%2Felife-67635-fig1-v1.tif/full/,1500/0/default.jpg "Title: Mean predicted deaths due to the 10 Vaccine Impact Modelling Consortium (VIMC) pathogens per 100,000 population per country for years 2000–2019 under the no vaccination and with vaccination (routine immunisations; RI only) scenarios."){.lightbox}
+
+:::
+
+::: {layout-ncol=2}
+
+## Biodiversity
+
+
+![Source: https://doi.org/10.1111/jse.12638](https://onlinelibrary.wiley.com/cms/asset/24681813-7ad1-4c68-9a12-ae6943047883/jse12638-fig-0006-m.jpg "Title: Reconstruction of the historical biogeography of Solanum under the DEC model implemented in BioGeoBEARS. Pies at each node represent the probability that each region (or combination of regions) is, according to the model, the ancestral range distribution."){.lightbox}
+
+![Source: https://doi.org/10.3389/fevo.2018.00219](https://www.frontiersin.org/files/Articles/404237/fevo-06-00219-HTML/image_m/fevo-06-00219-g001.jpg "Title: Overlap of plant species among biomes of the New World. Percentage values express the fraction of species occurring in a biome that have the greatest proportion of their geographic range in that biome, N = 84,413. "){.lightbox}
+
+
+
+:::
+
+
+
