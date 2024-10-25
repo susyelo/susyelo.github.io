@@ -9,10 +9,8 @@ website:
         text: About
       - href: education.qmd
         text: Education
-      - href: publicHealth.qmd
-        text: Public Health work
-      - href: biodiversity.qmd
-        text: Biodiversity work
+      - href: publications.qmd
+        text: Publications
       - href: visualisations.qmd
         text: Visualisations
 

@@ -1,0 +1,2577 @@
+- author:
+  - family: Hartner
+    given: Anna-Maria
+  - family: Li
+    given: Xiang
+  - family: Echeverria-Londono
+    given: Susy
+  - family: Roth
+    given: Jeremy
+  - family: Abbas
+    given: Kaja
+  - family: Auzenbergs
+    given: Megan
+  - dropping-particle: de
+    family: Villiers
+    given: Margaret J.
+  - family: Ferrari
+    given: Matthew
+  - family: Fraser
+    given: Keith
+  - family: Fu
+    given: Han
+  - family: Hallett
+    given: Timothy B.
+  - family: Hinsley
+    given: Wes
+  - family: Jit
+    given: Mark
+  - family: Prasinou
+    given: Andromachi Karachaliou
+  - family: Moore
+    given: Sean
+  - family: Nayagam
+    given: Shevanthi
+  - family: Papadopoulos
+    given: Timos
+  - family: Perkins
+    given: T. Alex
+  - family: Portnoy
+    given: Allison
+  - family: Tran
+    given: Quan Minh
+  - family: Vynnycky
+    given: Emilia
+  - family: Winter
+    given: Amy K.
+  - family: Burrows
+    given: Holly
+  - family: Chen
+    given: Cythia
+  - family: Clapham
+    given: Hannah E.
+  - family: Deshpande
+    given: Aniruddha
+  - family: Hauryski
+    given: Sarah
+  - family: Huber
+    given: John
+  - family: Jean
+    given: Kévin
+  - family: Kim
+    given: Chaelin
+  - family: Kim
+    given: Jong-Hoon
+  - family: Koh
+    given: Jemima
+  - family: Lopman
+    given: Ben
+  - family: Pitzer
+    given: Virginia E.
+  - family: Tam
+    given: Yvonne
+  - family: Lambach
+    given: Philipp
+  - family: Sim
+    given: So Yoon
+  - family: Woodruff
+    given: Kim
+  - family: Ferguson
+    given: Neil M.
+  - family: Trotter
+    given: Caroline
+  - family: Gaythorpe
+    given: Katy A. M.
+  container-title: 9th international conference on infectious disease
+    dynamics
+  doi: 10.2139/ssrn.4492698
+  id: Hartner2023
+  issued: 2023
+  title: "COVID-19 related immunisation disruptions from 2020-2030:
+    Projecting health impact and mitigation strategies for 14 pathogens
+    across 112 low- and middle-income countries"
+  title-short: COVID-19 related immunisation disruptions from 2020-2030
+  type: paper-conference
+- author:
+  - family: Ali
+    given: Huda Ahmed
+  - family: Hartner
+    given: Anna-Maria
+  - family: Echeverria-Londono
+    given: Susy
+  - family: Roth
+    given: Jeremy
+  - family: Li
+    given: Xiang
+  - family: Abbas
+    given: Kaja
+  - family: Portnoy
+    given: Allison
+  - family: Vynnycky
+    given: Emilia
+  - family: Woodruff
+    given: Kim
+  - family: Ferguson
+    given: Neil M
+  - family: Toor
+    given: Jaspreet
+  - family: Gaythorpe
+    given: Katy AM
+  container-title: International Journal for Equity in Health
+  doi: 10.1186/s12939-022-01678-5
+  id: Ali2022
+  issn: 1475-9276
+  issued: 2022-06
+  page: 82
+  title: "Vaccine equity in low and middle income countries: A
+    systematic review and meta-analysis"
+  title-short: Vaccine equity in low and middle income countries
+  type: article-journal
+  volume: 21
+- author:
+  - family: Echeverria-Londono
+    given: Susy
+  - family: Hartner
+    given: Anna-Maria
+  - family: Li
+    given: Xiang
+  - family: Roth
+    given: Jeremy
+  - family: Portnoy
+    given: Allison
+  - family: Sbarra
+    given: Alyssa N.
+  - family: Abbas
+    given: Kaja
+  - family: Ferrari
+    given: Matthew
+  - family: Fu
+    given: Han
+  - family: Jit
+    given: Mark
+  - family: Ferguson
+    given: Neil M.
+  - family: Gaythorpe
+    given: Katy A. M.
+  container-title: Vaccine
+  doi: 10.1016/j.vaccine.2022.09.049
+  id: Echeverria-Londono2022
+  issn: 0264410X
+  issued: 2022-11
+  page: 6806-6817
+  title: Exploring the subnational inequality and heterogeneity of the
+    impact of routine measles immunisation in africa
+  type: article-journal
+  volume: 40
+- author:
+  - family: Toor
+    given: Jaspreet
+  - family: Li
+    given: Xiang
+  - family: Jit
+    given: Mark
+  - family: Trotter
+    given: Caroline L.
+  - family: Echeverria-Londono
+    given: Susy
+  - family: Hartner
+    given: Anna-Maria
+  - family: Roth
+    given: Jeremy
+  - family: Portnoy
+    given: Allison
+  - family: Abbas
+    given: Kaja
+  - family: Ferguson
+    given: Neil M.
+  - family: Gaythorpe
+    given: Katy AM
+  container-title: Vaccine
+  doi: 10.1016/j.vaccine.2022.05.074
+  id: Toor2022
+  issn: 0264410X
+  issued: 2022-07
+  page: 4142-4149
+  title: "COVID-19 impact on routine immunisations for
+    vaccine-preventable diseases: Projecting the effect of different
+    routes to recovery"
+  title-short: COVID-19 impact on routine immunisations for
+    vaccine-preventable diseases
+  type: article-journal
+  volume: 40
+- author:
+  - family: Ali
+    given: Huda Ahmed
+  - family: Hartner
+    given: Anna-Maria
+  - family: Echeverria-Londono
+    given: Susy
+  - family: Roth
+    given: Jeremy
+  - family: Li
+    given: Xiang
+  - family: Abbas
+    given: Kaja
+  - family: Portnoy
+    given: Allison
+  - family: Vynnycky
+    given: Emilia
+  - family: Woodruff
+    given: Kim
+  - family: Ferguson
+    given: Neil M
+  - family: Toor
+    given: Jaspreet
+  - family: Gaythorpe
+    given: Katy AM
+  container-title: International Journal for Equity in Health
+  doi: 10.1186/s12939-022-01678-5
+  id: Ali2022
+  issn: 1475-9276
+  issued: 2022-06
+  page: 82
+  title: "Vaccine equity in low and middle income countries: A
+    systematic review and meta-analysis"
+  title-short: Vaccine equity in low and middle income countries
+  type: article-journal
+  volume: 21
+- author:
+  - family: Echeverria-Londono
+    given: Susy
+  - family: Li
+    given: Xiang
+  - family: Toor
+    given: Jaspreet
+  - dropping-particle: de
+    family: Villiers
+    given: Margaret J.
+  - family: Nayagam
+    given: Shevanthi
+  - family: Hallett
+    given: Timothy B.
+  - family: Abbas
+    given: Kaja
+  - family: Jit
+    given: Mark
+  - family: Klepac
+    given: Petra
+  - family: Jean
+    given: Kévin
+  - family: Garske
+    given: Tini
+  - family: Ferguson
+    given: Neil M.
+  - family: Gaythorpe
+    given: Katy A. M.
+  container-title: BMC Public Health
+  doi: 10.1186/s12889-021-12040-9
+  id: Echeverria-Londono2021
+  issn: 1471-2458
+  issued: 2021-12
+  page: 2049
+  title: How can the public health impact of vaccination be estimated?
+  type: article-journal
+  volume: 21
+- author:
+  - family: Toor
+    given: Jaspreet
+  - family: Echeverria-Londono
+    given: Susy
+  - family: Li
+    given: Xiang
+  - family: Abbas
+    given: Kaja
+  - family: Carter
+    given: Emily D
+  - family: Clapham
+    given: Hannah E
+  - family: Clark
+    given: Andrew
+  - dropping-particle: de
+    family: Villiers
+    given: Margaret J
+  - family: Eilertson
+    given: Kirsten
+  - family: Ferrari
+    given: Matthew
+  - family: Gamkrelidze
+    given: Ivane
+  - family: Hallett
+    given: Timothy B
+  - family: Hinsley
+    given: Wes R
+  - family: Hogan
+    given: Daniel
+  - family: Huber
+    given: John H
+  - family: Jackson
+    given: Michael L
+  - family: Jean
+    given: Kevin
+  - family: Jit
+    given: Mark
+  - family: Karachaliou
+    given: Andromachi
+  - family: Klepac
+    given: Petra
+  - family: Kraay
+    given: Alicia
+  - family: Lessler
+    given: Justin
+  - family: Li
+    given: Xi
+  - family: Lopman
+    given: Benjamin A
+  - family: Mengistu
+    given: Tewodaj
+  - family: Metcalf
+    given: C Jessica E
+  - family: Moore
+    given: Sean M
+  - family: Nayagam
+    given: Shevanthi
+  - family: Papadopoulos
+    given: Timos
+  - family: Perkins
+    given: T Alex
+  - family: Portnoy
+    given: Allison
+  - family: Razavi
+    given: Homie
+  - family: Razavi-Shearer
+    given: Devin
+  - family: Resch
+    given: Stephen
+  - family: Sanderson
+    given: Colin
+  - family: Sweet
+    given: Steven
+  - family: Tam
+    given: Yvonne
+  - family: Tanvir
+    given: Hira
+  - family: Minh
+    given: Quan Tran
+  - family: Trotter
+    given: Caroline L
+  - family: Truelove
+    given: Shaun A
+  - family: Vynnycky
+    given: Emilia
+  - family: Walker
+    given: Neff
+  - family: Winter
+    given: Amy
+  - family: Woodruff
+    given: Kim
+  - family: Ferguson
+    given: Neil M
+  - family: Gaythorpe
+    given: Katy AM
+  container-title: eLife
+  doi: 10.7554/eLife.67635
+  id: Toor2021
+  issn: 2050-084X
+  issued: 2021-07
+  title: Lives saved with vaccination for 10 pathogens across 112
+    countries in a pre-COVID-19 world
+  type: article-journal
+  volume: 10
+- author:
+  - family: Gaythorpe
+    given: Katy A M
+  - family: Toor
+    given: Jaspreet
+  - family: Echeverria-Londono
+    given: Susy
+  - family: Li
+    given: Xiang
+  - family: Ferguson
+    given: Neil M
+  container-title: The Lancet
+  doi: 10.1016/S0140-6736(21)01015-1
+  id: Gaythorpe2021
+  issn: 01406736
+  issued: 2021-06
+  page: 2251
+  title: Vaccines can save children with non-preventable diseases --
+    authors' reply
+  type: article-journal
+  volume: 397
+- author:
+  - family: Li
+    given: Xiang
+  - family: Mukandavire
+    given: Christinah
+  - family: Cucunubá
+    given: Zulma M
+  - family: Londono
+    given: Susy Echeverria
+  - family: Abbas
+    given: Kaja
+  - family: Clapham
+    given: Hannah E
+  - family: Jit
+    given: Mark
+  - family: Johnson
+    given: Hope L
+  - family: Papadopoulos
+    given: Timos
+  - family: Vynnycky
+    given: Emilia
+  - family: Brisson
+    given: Marc
+  - family: Carter
+    given: Emily D
+  - family: Clark
+    given: Andrew
+  - dropping-particle: de
+    family: Villiers
+    given: Margaret J
+  - family: Eilertson
+    given: Kirsten
+  - family: Ferrari
+    given: Matthew J
+  - family: Gamkrelidze
+    given: Ivane
+  - family: Gaythorpe
+    given: Katy A M
+  - family: Grassly
+    given: Nicholas C
+  - family: Hallett
+    given: Timothy B
+  - family: Hinsley
+    given: Wes
+  - family: Jackson
+    given: Michael L
+  - family: Jean
+    given: Kévin
+  - family: Karachaliou
+    given: Andromachi
+  - family: Klepac
+    given: Petra
+  - family: Lessler
+    given: Justin
+  - family: Li
+    given: Xi
+  - family: Moore
+    given: Sean M
+  - family: Nayagam
+    given: Shevanthi
+  - family: Nguyen
+    given: Duy Manh
+  - family: Razavi
+    given: Homie
+  - family: Razavi-Shearer
+    given: Devin
+  - family: Resch
+    given: Stephen
+  - family: Sanderson
+    given: Colin
+  - family: Sweet
+    given: Steven
+  - family: Sy
+    given: Stephen
+  - family: Tam
+    given: Yvonne
+  - family: Tanvir
+    given: Hira
+  - family: Tran
+    given: Quan Minh
+  - family: Trotter
+    given: Caroline L
+  - family: Truelove
+    given: Shaun
+  - dropping-particle: van
+    family: Zandvoort
+    given: Kevin
+  - family: Verguet
+    given: Stéphane
+  - family: Walker
+    given: Neff
+  - family: Winter
+    given: Amy
+  - family: Woodruff
+    given: Kim
+  - family: Ferguson
+    given: Neil M
+  - family: Garske
+    given: Tini
+  container-title: The Lancet
+  doi: 10.1016/S0140-6736(20)32657-X
+  id: Li2021
+  issn: 01406736
+  issued: 2021-01
+  page: 398-408
+  title: "Estimating the health impact of vaccination against ten
+    pathogens in 98 low-income and middle-income countries from 2000 to
+    2030: A modelling study"
+  title-short: Estimating the health impact of vaccination against ten
+    pathogens in 98 low-income and middle-income countries from 2000 to
+    2030
+  type: article-journal
+  volume: 397
+- author:
+  - family: Gaythorpe
+    given: Katy AM
+  - family: Abbas
+    given: Kaja
+  - family: Huber
+    given: John
+  - family: Karachaliou
+    given: Andromachi
+  - family: Thakkar
+    given: Niket
+  - family: Woodruff
+    given: Kim
+  - family: Li
+    given: Xiang
+  - family: Echeverria-Londono
+    given: Susy
+  - family: Fouda
+    given: Andre Arsene Bita
+  - family: Cutts
+    given: Felicity
+  - family: Dansereau
+    given: Emily
+  - family: Durupt
+    given: Antoine
+  - family: Griffiths
+    given: Ulla
+  - family: Horton
+    given: Jennifer
+  - family: Krause
+    given: L Kendall
+  - family: Kretsinger
+    given: Katrina
+  - family: Mengistu
+    given: Tewodaj
+  - family: Mirza
+    given: Imran
+  - family: Procter
+    given: Simon R
+  - family: Shendale
+    given: Stephanie
+  - family: Ferrari
+    given: Matthew
+  - family: Jackson
+    given: Michael L
+  - family: McCarthy
+    given: Kevin
+  - family: Perkins
+    given: T Alex
+  - family: Trotter
+    given: Caroline
+  - family: Jit
+    given: Mark
+  container-title: eLife
+  doi: 10.7554/eLife.67023
+  id: Gaythorpe2021
+  issn: 2050-084X
+  issued: 2021-06
+  title: Impact of COVID-19-related disruptions to measles,
+    meningococcal a, and yellow fever vaccination in 10 countries
+  type: article-journal
+  volume: 10
+- abstract: "\\<p\\>We explore an extended view of the tropical
+    conservatism hypothesis to account for two often-neglected
+    components of climatic stress: drought and the combined effect of
+    seasonal cold and drought---the latter being a common feature of
+    extratropical dry environments. We show that evolutionary diversity
+    of angiosperm assemblages in extratropical dry biomes is even lower
+    than in biomes subject to only one type of climatic stress. We
+    further show that evolutionary diversity in many assemblages from
+    eastern North America is higher or comparable to that of tropical
+    moist forests, suggesting that some extratropical moist biomes have
+    accumulated angiosperm lineages over deep evolutionary timescales
+    with their flora assembled from lineages that represent the entirety
+    of the angiosperm tree of life.\\</p\\>"
+  author:
+  - family: Neves
+    given: Danilo M.
+  - family: Kerkhoff
+    given: Andrew J.
+  - family: Echeverría-Londoño
+    given: Susy
+  - family: Merow
+    given: Cory
+  - family: Morueta-Holme
+    given: Naia
+  - family: Peet
+    given: Robert K.
+  - family: Sandel
+    given: Brody
+  - family: Svenning
+    given: Jens-Christian
+  - family: Wiser
+    given: Susan K.
+  - family: Enquist
+    given: Brian J.
+  container-title: Proceedings of the National Academy of Sciences
+  doi: 10.1073/pnas.2021132118
+  id: Neves2021
+  issn: 0027-8424
+  issued: 2021-09
+  title: The adaptive challenge of extreme conditions shapes
+    evolutionary diversity of plant assemblages at continental scales
+  type: article-journal
+  volume: 118
+- author:
+  - family: Laiton-Donato
+    given: Katherine
+  - family: Villabona-Arenas
+    given: Christian Julián
+  - family: Usme-Ciro
+    given: José A.
+  - family: Franco-Muñoz
+    given: Carlos
+  - family: Álvarez-Díaz
+    given: Diego A.
+  - family: Villabona-Arenas
+    given: Liz Stephany
+  - family: Echeverría-Londoño
+    given: Susy
+  - family: Cucunubá
+    given: Zulma M.
+  - family: Franco-Sierra
+    given: Nicolás D.
+  - family: Flórez
+    given: Astrid C.
+  - family: Ferro
+    given: Carolina
+  - family: Ajami
+    given: Nadim J.
+  - family: Walteros
+    given: Diana Marcela
+  - family: Prieto
+    given: Franklin
+  - family: Durán
+    given: Carlos Andrés
+  - family: Ospina-Martínez
+    given: Martha Lucia
+  - family: Mercado-Reyes
+    given: Marcela
+  container-title: Emerging Infectious Diseases
+  doi: 10.3201/eid2612.202969
+  id: Laiton-Donato2020
+  issn: 1080-6040
+  issued: 2020-12
+  page: 2854-2862
+  title: Genomic epidemiology of severe acute respiratory syndrome
+    coronavirus 2, colombia
+  type: article-journal
+  volume: 26
+- author:
+  - family: Echeverria-Londono
+    given: Susy
+  - family: Sarkinen
+    given: Tiina
+  - family: Fenton
+    given: Isabel S.
+  - family: Purvis
+    given: Andy
+  - family: Knapp
+    given: Sandra
+  container-title: Journal of Systematics and Evolution
+  doi: 10.1111/jse.12638
+  id: Echeverria-Londono2020
+  issn: 1674-4918
+  issued: 2020-11
+  page: 767-782
+  title: Dynamism and context‐dependency in diversification of the
+    megadiverse plant genus \<i\>solanum\</i\> (solanaceae)
+  type: article-journal
+  volume: 58
+- author:
+  - family: Echeverria-Londono
+    given: Susy
+  - family: Enquist
+    given: Brian J.
+  - family: Neves
+    given: Danilo M.
+  - family: Violle
+    given: Cyrille
+  - family: Boyle
+    given: Brad
+  - family: Kraft
+    given: Nathan J. B.
+  - family: Maitner
+    given: Brian S.
+  - family: McGill
+    given: Brian
+  - family: Peet
+    given: Robert K.
+  - family: Sandel
+    given: Brody
+  - family: Smith
+    given: Stephen A.
+  - family: Svenning
+    given: Jens-Christian
+  - family: Wiser
+    given: Susan K.
+  - family: Kerkhoff
+    given: Andrew J.
+  container-title: Frontiers in Ecology and Evolution
+  doi: 10.3389/fevo.2018.00219
+  id: Echeverria-Londono2018
+  issn: 2296-701X
+  issued: 2018-12
+  title: Plant functional diversity and the biogeography of biomes in
+    north and south america
+  type: article-journal
+  volume: 6
+- abstract: "\\<p\\> The \\<styled-content
+    style=\\\"fixed-case\\\"\\>PREDICTS\\</styled-content\\>
+    project---Projecting Responses of Ecological Diversity In Changing
+    Terrestrial Systems ( \\<ext-link
+    href=\\\"https://www.nhm.ac.uk/our-science/our-work/biodiversity/predicts.html\\\"\\>https://www.nhm.ac.uk/our-science/our-work/biodiversity/predicts.html\\</ext-link\\>
+    )---has collated from published studies a large, reasonably
+    representative database of comparable samples of biodiversity from
+    multiple sites that differ in the nature or intensity of human
+    impacts relating to land use. We have used this evidence base to
+    develop global and regional statistical models of how local
+    biodiversity responds to these measures. We describe and make freely
+    available this 2016 release of the database, containing more than
+    3.2 million records sampled at over 26,000 locations and
+    representing over 47,000 species. We outline how the database can
+    help in answering a range of questions in ecology and conservation
+    biology. To our knowledge, this is the largest and most
+    geographically and taxonomically representative database of spatial
+    comparisons of biodiversity that has been collated to date; it will
+    be useful to researchers and international efforts wishing to model
+    and understand the global status of biodiversity. \\</p\\>"
+  author:
+  - family: Hudson
+    given: Lawrence N.
+  - family: Newbold
+    given: Tim
+  - family: Contu
+    given: Sara
+  - family: Hill
+    given: Samantha L. L.
+  - family: Lysenko
+    given: Igor
+  - family: Palma
+    given: Adriana De
+  - family: Phillips
+    given: Helen R. P.
+  - family: Alhusseini
+    given: Tamera I.
+  - family: Bedford
+    given: Felicity E.
+  - family: Bennett
+    given: Dominic J.
+  - family: Booth
+    given: Hollie
+  - family: Burton
+    given: Victoria J.
+  - family: Chng
+    given: Charlotte W. T.
+  - family: Choimes
+    given: Argyrios
+  - family: Correia
+    given: David L. P.
+  - family: Day
+    given: Julie
+  - family: Echeverría‐Londoño
+    given: Susy
+  - family: Emerson
+    given: Susan R.
+  - family: Gao
+    given: Di
+  - family: Garon
+    given: Morgan
+  - family: Harrison
+    given: Michelle L. K.
+  - family: Ingram
+    given: Daniel J.
+  - family: Jung
+    given: Martin
+  - family: Kemp
+    given: Victoria
+  - family: Kirkpatrick
+    given: Lucinda
+  - family: Martin
+    given: Callum D.
+  - family: Pan
+    given: Yuan
+  - family: Pask‐Hale
+    given: Gwilym D.
+  - family: Pynegar
+    given: Edwin L.
+  - family: Robinson
+    given: Alexandra N.
+  - family: Sanchez‐Ortiz
+    given: Katia
+  - family: Senior
+    given: Rebecca A.
+  - family: Simmons
+    given: Benno I.
+  - family: White
+    given: Hannah J.
+  - family: Zhang
+    given: Hanbin
+  - family: Aben
+    given: Job
+  - family: Abrahamczyk
+    given: Stefan
+  - family: Adum
+    given: Gilbert B.
+  - family: Aguilar‐Barquero
+    given: Virginia
+  - family: Aizen
+    given: Marcelo A.
+  - family: Albertos
+    given: Belén
+  - family: Alcala
+    given: E. L.
+  - dropping-particle: del
+    family: Mar Alguacil
+    given: Maria
+  - family: Alignier
+    given: Audrey
+  - family: Ancrenaz
+    given: Marc
+  - family: Andersen
+    given: Alan N.
+  - family: Arbeláez‐Cortés
+    given: Enrique
+  - family: Armbrecht
+    given: Inge
+  - family: Arroyo‐Rodríguez
+    given: Víctor
+  - family: Aumann
+    given: Tom
+  - family: Axmacher
+    given: Jan C.
+  - family: Azhar
+    given: Badrul
+  - family: Azpiroz
+    given: Adrián B.
+  - family: Baeten
+    given: Lander
+  - family: Bakayoko
+    given: Adama
+  - family: Báldi
+    given: András
+  - family: Banks
+    given: John E.
+  - family: Baral
+    given: Sharad K.
+  - family: Barlow
+    given: Jos
+  - family: Barratt
+    given: Barbara I. P.
+  - family: Barrico
+    given: Lurdes
+  - family: Bartolommei
+    given: Paola
+  - family: Barton
+    given: Diane M.
+  - family: Basset
+    given: Yves
+  - family: Batáry
+    given: Péter
+  - family: Bates
+    given: Adam J.
+  - family: Baur
+    given: Bruno
+  - family: Bayne
+    given: Erin M.
+  - family: Beja
+    given: Pedro
+  - family: Benedick
+    given: Suzan
+  - family: Berg
+    given: Åke
+  - family: Bernard
+    given: Henry
+  - family: Berry
+    given: Nicholas J.
+  - family: Bhatt
+    given: Dinesh
+  - family: Bicknell
+    given: Jake E.
+  - family: Bihn
+    given: Jochen H.
+  - family: Blake
+    given: Robin J.
+  - family: Bobo
+    given: Kadiri S.
+  - family: Bóçon
+    given: Roberto
+  - family: Boekhout
+    given: Teun
+  - family: Böhning‐Gaese
+    given: Katrin
+  - family: Bonham
+    given: Kevin J.
+  - family: Borges
+    given: Paulo A. V.
+  - family: Borges
+    given: Sérgio H.
+  - family: Boutin
+    given: Céline
+  - family: Bouyer
+    given: Jérémy
+  - family: Bragagnolo
+    given: Cibele
+  - family: Brandt
+    given: Jodi S.
+  - family: Brearley
+    given: Francis Q.
+  - family: Brito
+    given: Isabel
+  - family: Bros
+    given: Vicenç
+  - family: Brunet
+    given: Jörg
+  - family: Buczkowski
+    given: Grzegorz
+  - family: Buddle
+    given: Christopher M.
+  - family: Bugter
+    given: Rob
+  - family: Buscardo
+    given: Erika
+  - family: Buse
+    given: Jörn
+  - family: Cabra‐García
+    given: Jimmy
+  - family: Cáceres
+    given: Nilton C.
+  - family: Cagle
+    given: Nicolette L.
+  - family: Calviño‐Cancela
+    given: María
+  - family: Cameron
+    given: Sydney A.
+  - family: Cancello
+    given: Eliana M.
+  - family: Caparrós
+    given: Rut
+  - family: Cardoso
+    given: Pedro
+  - family: Carpenter
+    given: Dan
+  - family: Carrijo
+    given: Tiago F.
+  - family: Carvalho
+    given: Anelena L.
+  - family: Cassano
+    given: Camila R.
+  - family: Castro
+    given: Helena
+  - family: Castro‐Luna
+    given: Alejandro A.
+  - family: Rolando
+    given: Cerda B.
+  - family: Cerezo
+    given: Alexis
+  - family: Chapman
+    given: Kim Alan
+  - family: Chauvat
+    given: Matthieu
+  - family: Christensen
+    given: Morten
+  - family: Clarke
+    given: Francis M.
+  - family: Cleary
+    given: Daniel F. R.
+  - family: Colombo
+    given: Giorgio
+  - family: Connop
+    given: Stuart P.
+  - family: Craig
+    given: Michael D.
+  - family: Cruz‐López
+    given: Leopoldo
+  - family: Cunningham
+    given: Saul A.
+  - family: D'Aniello
+    given: Biagio
+  - family: D'Cruze
+    given: Neil
+  - dropping-particle: da
+    family: Silva
+    given: Pedro Giovâni
+  - family: Dallimer
+    given: Martin
+  - family: Danquah
+    given: Emmanuel
+  - family: Darvill
+    given: Ben
+  - family: Dauber
+    given: Jens
+  - family: Davis
+    given: Adrian L. V.
+  - family: Dawson
+    given: Jeff
+  - dropping-particle: de
+    family: Sassi
+    given: Claudio
+  - dropping-particle: de
+    family: Thoisy
+    given: Benoit
+  - family: Deheuvels
+    given: Olivier
+  - family: Dejean
+    given: Alain
+  - family: Devineau
+    given: Jean‐Louis
+  - family: Diekötter
+    given: Tim
+  - family: Dolia
+    given: Jignasu V.
+  - family: Domínguez
+    given: Erwin
+  - family: Dominguez‐Haydar
+    given: Yamileth
+  - family: Dorn
+    given: Silvia
+  - family: Draper
+    given: Isabel
+  - family: Dreber
+    given: Niels
+  - family: Dumont
+    given: Bertrand
+  - family: Dures
+    given: Simon G.
+  - family: Dynesius
+    given: Mats
+  - family: Edenius
+    given: Lars
+  - family: Eggleton
+    given: Paul
+  - family: Eigenbrod
+    given: Felix
+  - family: Elek
+    given: Zoltán
+  - family: Entling
+    given: Martin H.
+  - family: Esler
+    given: Karen J.
+  - dropping-particle: de
+    family: Lima
+    given: Ricardo F.
+  - family: Faruk
+    given: Aisyah
+  - family: Farwig
+    given: Nina
+  - family: Fayle
+    given: Tom M.
+  - family: Felicioli
+    given: Antonio
+  - family: Felton
+    given: Annika M.
+  - family: Fensham
+    given: Roderick J.
+  - family: Fernandez
+    given: Ignacio C.
+  - family: Ferreira
+    given: Catarina C.
+  - family: Ficetola
+    given: Gentile F.
+  - family: Fiera
+    given: Cristina
+  - family: Filgueiras
+    given: Bruno K. C.
+  - family: Fırıncıoğlu
+    given: Hüseyin K.
+  - family: Flaspohler
+    given: David
+  - family: Floren
+    given: Andreas
+  - family: Fonte
+    given: Steven J.
+  - family: Fournier
+    given: Anne
+  - family: Fowler
+    given: Robert E.
+  - family: Franzén
+    given: Markus
+  - family: Fraser
+    given: Lauchlan H.
+  - family: Fredriksson
+    given: Gabriella M.
+  - family: Freire
+    given: Geraldo B.
+  - family: Frizzo
+    given: Tiago L. M.
+  - family: Fukuda
+    given: Daisuke
+  - family: Furlani
+    given: Dario
+  - family: Gaigher
+    given: René
+  - family: Ganzhorn
+    given: Jörg U.
+  - family: García
+    given: Karla P.
+  - family: Garcia‐R
+    given: Juan C.
+  - family: Garden
+    given: Jenni G.
+  - family: Garilleti
+    given: Ricardo
+  - family: Ge
+    given: Bao‐Ming
+  - family: Gendreau‐Berthiaume
+    given: Benoit
+  - family: Gerard
+    given: Philippa J.
+  - family: Gheler‐Costa
+    given: Carla
+  - family: Gilbert
+    given: Benjamin
+  - family: Giordani
+    given: Paolo
+  - family: Giordano
+    given: Simonetta
+  - family: Golodets
+    given: Carly
+  - family: Gomes
+    given: Laurens G. L.
+  - family: Gould
+    given: Rachelle K.
+  - family: Goulson
+    given: Dave
+  - family: Gove
+    given: Aaron D.
+  - family: Granjon
+    given: Laurent
+  - family: Grass
+    given: Ingo
+  - family: Gray
+    given: Claudia L.
+  - family: Grogan
+    given: James
+  - family: Gu
+    given: Weibin
+  - family: Guardiola
+    given: Moisès
+  - family: Gunawardene
+    given: Nihara R.
+  - family: Gutierrez
+    given: Alvaro G.
+  - family: Gutiérrez‐Lamus
+    given: Doris L.
+  - family: Haarmeyer
+    given: Daniela H.
+  - family: Hanley
+    given: Mick E.
+  - family: Hanson
+    given: Thor
+  - family: Hashim
+    given: Nor R.
+  - family: Hassan
+    given: Shombe N.
+  - family: Hatfield
+    given: Richard G.
+  - family: Hawes
+    given: Joseph E.
+  - family: Hayward
+    given: Matt W.
+  - family: Hébert
+    given: Christian
+  - family: Helden
+    given: Alvin J.
+  - family: Henden
+    given: John‐André
+  - family: Henschel
+    given: Philipp
+  - family: Hernández
+    given: Lionel
+  - family: Herrera
+    given: James P.
+  - family: Herrmann
+    given: Farina
+  - family: Herzog
+    given: Felix
+  - family: Higuera‐Diaz
+    given: Diego
+  - family: Hilje
+    given: Branko
+  - family: Höfer
+    given: Hubert
+  - family: Hoffmann
+    given: Anke
+  - family: Horgan
+    given: Finbarr G.
+  - family: Hornung
+    given: Elisabeth
+  - family: Horváth
+    given: Roland
+  - family: Hylander
+    given: Kristoffer
+  - family: Isaacs‐Cubides
+    given: Paola
+  - family: Ishida
+    given: Hiroaki
+  - family: Ishitani
+    given: Masahiro
+  - family: Jacobs
+    given: Carmen T.
+  - family: Jaramillo
+    given: Víctor J.
+  - family: Jauker
+    given: Birgit
+  - family: Hernández
+    given: F. Jiménez
+  - family: Johnson
+    given: McKenzie F.
+  - family: Jolli
+    given: Virat
+  - family: Jonsell
+    given: Mats
+  - family: Juliani
+    given: S. Nur
+  - family: Jung
+    given: Thomas S.
+  - family: Kapoor
+    given: Vena
+  - family: Kappes
+    given: Heike
+  - family: Kati
+    given: Vassiliki
+  - family: Katovai
+    given: Eric
+  - family: Kellner
+    given: Klaus
+  - family: Kessler
+    given: Michael
+  - family: Kirby
+    given: Kathryn R.
+  - family: Kittle
+    given: Andrew M.
+  - family: Knight
+    given: Mairi E.
+  - family: Knop
+    given: Eva
+  - family: Kohler
+    given: Florian
+  - family: Koivula
+    given: Matti
+  - family: Kolb
+    given: Annette
+  - family: Kone
+    given: Mouhamadou
+  - family: Kőrösi
+    given: Ádám
+  - family: Krauss
+    given: Jochen
+  - family: Kumar
+    given: Ajith
+  - family: Kumar
+    given: Raman
+  - family: Kurz
+    given: David J.
+  - family: Kutt
+    given: Alex S.
+  - family: Lachat
+    given: Thibault
+  - family: Lantschner
+    given: Victoria
+  - family: Lara
+    given: Francisco
+  - family: Lasky
+    given: Jesse R.
+  - family: Latta
+    given: Steven C.
+  - family: Laurance
+    given: William F.
+  - family: Lavelle
+    given: Patrick
+  - family: Féon
+    given: Violette Le
+  - family: LeBuhn
+    given: Gretchen
+  - family: Légaré
+    given: Jean‐Philippe
+  - family: Lehouck
+    given: Valérie
+  - family: Lencinas
+    given: María V.
+  - family: Lentini
+    given: Pia E.
+  - family: Letcher
+    given: Susan G.
+  - family: Li
+    given: Qi
+  - family: Litchwark
+    given: Simon A.
+  - family: Littlewood
+    given: Nick A.
+  - family: Liu
+    given: Yunhui
+  - family: Lo‐Man‐Hung
+    given: Nancy
+  - family: López‐Quintero
+    given: Carlos A.
+  - family: Louhaichi
+    given: Mounir
+  - family: Lövei
+    given: Gabor L.
+  - family: Lucas‐Borja
+    given: Manuel Esteban
+  - family: Luja
+    given: Victor H.
+  - family: Luskin
+    given: Matthew S.
+  - family: G
+    given: M Cristina MacSwiney
+  - family: Maeto
+    given: Kaoru
+  - family: Magura
+    given: Tibor
+  - family: Mallari
+    given: Neil Aldrin
+  - family: Malone
+    given: Louise A.
+  - family: Malonza
+    given: Patrick K.
+  - family: Malumbres‐Olarte
+    given: Jagoba
+  - family: Mandujano
+    given: Salvador
+  - family: Måren
+    given: Inger E.
+  - family: Marin‐Spiotta
+    given: Erika
+  - family: Marsh
+    given: Charles J.
+  - family: Marshall
+    given: E. J. P.
+  - family: Martínez
+    given: Eliana
+  - family: Pastur
+    given: Guillermo Martínez
+  - family: Mateos
+    given: David Moreno
+  - family: Mayfield
+    given: Margaret M.
+  - family: Mazimpaka
+    given: Vicente
+  - family: McCarthy
+    given: Jennifer L.
+  - family: McCarthy
+    given: Kyle P.
+  - family: McFrederick
+    given: Quinn S.
+  - family: McNamara
+    given: Sean
+  - family: Medina
+    given: Nagore G.
+  - family: Medina
+    given: Rafael
+  - family: Mena
+    given: Jose L.
+  - family: Mico
+    given: Estefania
+  - family: Mikusinski
+    given: Grzegorz
+  - family: Milder
+    given: Jeffrey C.
+  - family: Miller
+    given: James R.
+  - family: Miranda‐Esquivel
+    given: Daniel R.
+  - family: Moir
+    given: Melinda L.
+  - family: Morales
+    given: Carolina L.
+  - family: Muchane
+    given: Mary N.
+  - family: Muchane
+    given: Muchai
+  - family: Mudri‐Stojnic
+    given: Sonja
+  - family: Munira
+    given: A. Nur
+  - family: Muoñz‐Alonso
+    given: Antonio
+  - family: Munyekenye
+    given: B. F.
+  - family: Naidoo
+    given: Robin
+  - family: Naithani
+    given: A.
+  - family: Nakagawa
+    given: Michiko
+  - family: Nakamura
+    given: Akihiro
+  - family: Nakashima
+    given: Yoshihiro
+  - family: Naoe
+    given: Shoji
+  - family: Nates‐Parra
+    given: Guiomar
+  - family: Gutierrez
+    given: Dario A. Navarrete
+  - family: Navarro‐Iriarte
+    given: Luis
+  - family: Ndang'ang'a
+    given: Paul K.
+  - family: Neuschulz
+    given: Eike L.
+  - family: Ngai
+    given: Jacqueline T.
+  - family: Nicolas
+    given: Violaine
+  - family: Nilsson
+    given: Sven G.
+  - family: Noreika
+    given: Norbertas
+  - family: Norfolk
+    given: Olivia
+  - family: Noriega
+    given: Jorge Ari
+  - family: Norton
+    given: David A.
+  - family: Nöske
+    given: Nicole M.
+  - family: Nowakowski
+    given: A. Justin
+  - family: Numa
+    given: Catherine
+  - family: O'Dea
+    given: Niall
+  - family: O'Farrell
+    given: Patrick J.
+  - family: Oduro
+    given: William
+  - family: Oertli
+    given: Sabine
+  - family: Ofori‐Boateng
+    given: Caleb
+  - family: Oke
+    given: Christopher Omamoke
+  - family: Oostra
+    given: Vicencio
+  - family: Osgathorpe
+    given: Lynne M.
+  - family: Otavo
+    given: Samuel Eduardo
+  - family: Page
+    given: Navendu V.
+  - family: Paritsis
+    given: Juan
+  - family: Parra‐H
+    given: Alejandro
+  - family: Parry
+    given: Luke
+  - family: Pe'er
+    given: Guy
+  - family: Pearman
+    given: Peter B.
+  - family: Pelegrin
+    given: Nicolás
+  - family: Pélissier
+    given: Raphaël
+  - family: Peres
+    given: Carlos A.
+  - family: Peri
+    given: Pablo L.
+  - family: Persson
+    given: Anna S.
+  - family: Petanidou
+    given: Theodora
+  - family: Peters
+    given: Marcell K.
+  - family: Pethiyagoda
+    given: Rohan S.
+  - family: Phalan
+    given: Ben
+  - family: Philips
+    given: T. Keith
+  - family: Pillsbury
+    given: Finn C.
+  - family: Pincheira‐Ulbrich
+    given: Jimmy
+  - family: Pineda
+    given: Eduardo
+  - family: Pino
+    given: Joan
+  - family: Pizarro‐Araya
+    given: Jaime
+  - family: Plumptre
+    given: A. J.
+  - family: Poggio
+    given: Santiago L.
+  - family: Politi
+    given: Natalia
+  - family: Pons
+    given: Pere
+  - family: Poveda
+    given: Katja
+  - family: Power
+    given: Eileen F.
+  - family: Presley
+    given: Steven J.
+  - family: Proença
+    given: Vânia
+  - family: Quaranta
+    given: Marino
+  - family: Quintero
+    given: Carolina
+  - family: Rader
+    given: Romina
+  - family: Ramesh
+    given: B. R.
+  - family: Ramirez‐Pinilla
+    given: Martha P.
+  - family: Ranganathan
+    given: Jai
+  - family: Rasmussen
+    given: Claus
+  - family: Redpath‐Downing
+    given: Nicola A.
+  - family: Reid
+    given: J. Leighton
+  - family: Reis
+    given: Yana T.
+  - family: Benayas
+    given: José M. Rey
+  - family: Rey‐Velasco
+    given: Juan Carlos
+  - family: Reynolds
+    given: Chevonne
+  - family: Ribeiro
+    given: Danilo Bandini
+  - family: Richards
+    given: Miriam H.
+  - family: Richardson
+    given: Barbara A.
+  - family: Richardson
+    given: Michael J.
+  - family: Ríos
+    given: Rodrigo Macip
+  - family: Robinson
+    given: Richard
+  - family: Robles
+    given: Carolina A.
+  - family: Römbke
+    given: Jörg
+  - family: Romero‐Duque
+    given: Luz Piedad
+  - family: Rös
+    given: Matthias
+  - family: Rosselli
+    given: Loreta
+  - family: Rossiter
+    given: Stephen J.
+  - family: Roth
+    given: Dana S.
+  - family: Roulston
+    given: T'ai H.
+  - family: Rousseau
+    given: Laurent
+  - family: Rubio
+    given: André V.
+  - family: Ruel
+    given: Jean‐Claude
+  - family: Sadler
+    given: Jonathan P.
+  - family: Sáfián
+    given: Szabolcs
+  - family: Saldaña‐Vázquez
+    given: Romeo A.
+  - family: Sam
+    given: Katerina
+  - family: Samnegård
+    given: Ulrika
+  - family: Santana
+    given: Joana
+  - family: Santos
+    given: Xavier
+  - family: Savage
+    given: Jade
+  - family: Schellhorn
+    given: Nancy A.
+  - family: Schilthuizen
+    given: Menno
+  - family: Schmiedel
+    given: Ute
+  - family: Schmitt
+    given: Christine B.
+  - family: Schon
+    given: Nicole L.
+  - family: Schüepp
+    given: Christof
+  - family: Schumann
+    given: Katharina
+  - family: Schweiger
+    given: Oliver
+  - family: Scott
+    given: Dawn M.
+  - family: Scott
+    given: Kenneth A.
+  - family: Sedlock
+    given: Jodi L.
+  - family: Seefeldt
+    given: Steven S.
+  - family: Shahabuddin
+    given: Ghazala
+  - family: Shannon
+    given: Graeme
+  - family: Sheil
+    given: Douglas
+  - family: Sheldon
+    given: Frederick H.
+  - family: Shochat
+    given: Eyal
+  - family: Siebert
+    given: Stefan J.
+  - family: Silva
+    given: Fernando A. B.
+  - family: Simonetti
+    given: Javier A.
+  - family: Slade
+    given: Eleanor M.
+  - family: Smith
+    given: Jo
+  - family: Smith‐Pardo
+    given: Allan H.
+  - family: Sodhi
+    given: Navjot S.
+  - family: Somarriba
+    given: Eduardo J.
+  - family: Sosa
+    given: Ramón A.
+  - family: Quiroga
+    given: Grimaldo Soto
+  - family: St‐Laurent
+    given: Martin‐Hugues
+  - family: Starzomski
+    given: Brian M.
+  - family: Stefanescu
+    given: Constanti
+  - family: Steffan‐Dewenter
+    given: Ingolf
+  - family: Stouffer
+    given: Philip C.
+  - family: Stout
+    given: Jane C.
+  - family: Strauch
+    given: Ayron M.
+  - family: Struebig
+    given: Matthew J.
+  - family: Su
+    given: Zhimin
+  - family: Suarez‐Rubio
+    given: Marcela
+  - family: Sugiura
+    given: Shinji
+  - family: Summerville
+    given: Keith S.
+  - family: Sung
+    given: Yik‐Hei
+  - family: Sutrisno
+    given: Hari
+  - family: Svenning
+    given: Jens‐Christian
+  - family: Teder
+    given: Tiit
+  - family: Threlfall
+    given: Caragh G.
+  - family: Tiitsaar
+    given: Anu
+  - family: Todd
+    given: Jacqui H.
+  - family: Tonietto
+    given: Rebecca K.
+  - family: Torre
+    given: Ignasi
+  - family: Tóthmérész
+    given: Béla
+  - family: Tscharntke
+    given: Teja
+  - family: Turner
+    given: Edgar C.
+  - family: Tylianakis
+    given: Jason M.
+  - family: Uehara‐Prado
+    given: Marcio
+  - family: Urbina‐Cardona
+    given: Nicolas
+  - family: Vallan
+    given: Denis
+  - family: Vanbergen
+    given: Adam J.
+  - family: Vasconcelos
+    given: Heraldo L.
+  - family: Vassilev
+    given: Kiril
+  - family: Verboven
+    given: Hans A. F.
+  - family: Verdasca
+    given: Maria João
+  - family: Verdú
+    given: José R.
+  - family: Vergara
+    given: Carlos H.
+  - family: Vergara
+    given: Pablo M.
+  - family: Verhulst
+    given: Jort
+  - family: Virgilio
+    given: Massimiliano
+  - family: Vu
+    given: Lien Van
+  - family: Waite
+    given: Edward M.
+  - family: Walker
+    given: Tony R.
+  - family: Wang
+    given: Hua‐Feng
+  - family: Wang
+    given: Yanping
+  - family: Watling
+    given: James I.
+  - family: Weller
+    given: Britta
+  - family: Wells
+    given: Konstans
+  - family: Westphal
+    given: Catrin
+  - family: Wiafe
+    given: Edward D.
+  - family: Williams
+    given: Christopher D.
+  - family: Willig
+    given: Michael R.
+  - family: Woinarski
+    given: John C. Z.
+  - family: Wolf
+    given: Jan H. D.
+  - family: Wolters
+    given: Volkmar
+  - family: Woodcock
+    given: Ben A.
+  - family: Wu
+    given: Jihua
+  - family: Wunderle
+    given: Joseph M.
+  - family: Yamaura
+    given: Yuichi
+  - family: Yoshikura
+    given: Satoko
+  - family: Yu
+    given: Douglas W.
+  - family: Zaitsev
+    given: Andrey S.
+  - family: Zeidler
+    given: Juliane
+  - family: Zou
+    given: Fasheng
+  - family: Collen
+    given: Ben
+  - family: Ewers
+    given: Rob M.
+  - family: Mace
+    given: Georgina M.
+  - family: Purves
+    given: Drew W.
+  - family: Scharlemann
+    given: Jörn P. W.
+  - family: Purvis
+    given: Andy
+  container-title: Ecology and Evolution
+  doi: 10.1002/ece3.2579
+  id: Hudson2017
+  issn: 2045-7758
+  issued: 2017-01
+  page: 145-188
+  title: The database of the \<scp\>PREDICTS\</scp\> (projecting
+    responses of ecological diversity in changing terrestrial systems)
+    project
+  type: article-journal
+  volume: 7
+- author:
+  - family: Echeverria-Londono
+    given: Susy
+  - family: Newbold
+    given: Tim
+  - family: Hudson
+    given: Lawrence N.
+  - family: Contu
+    given: Sara
+  - family: Hill
+    given: Samantha L. L.
+  - family: Lysenko
+    given: Igor
+  - family: Arbeláez‐Cortés
+    given: Enrique
+  - family: Armbrecht
+    given: Inge
+  - family: Boekhout
+    given: Teun
+  - family: Cabra‐García
+    given: Jimmy
+  - family: Dominguez‐Haydar
+    given: Yamileth
+  - family: Nates‐Parra
+    given: Guiomar
+  - family: Gutiérrez‐Lamus
+    given: Doris L.
+  - family: Higuera
+    given: Diego
+  - family: Isaacs‐Cubides
+    given: Paola Johanna
+  - family: López‐Quintero
+    given: Carlos A.
+  - family: Martinez
+    given: Eliana
+  - family: Miranda‐Esquivel
+    given: Daniel Rafael
+  - family: Navarro‐Iriarte
+    given: Luis Eduardo
+  - family: Noriega
+    given: Jorge Ari
+  - family: Otavo
+    given: Samuel Eduardo
+  - family: Parra‐H
+    given: Alejandro
+  - family: Poveda
+    given: Katja
+  - family: Ramirez‐Pinilla
+    given: Martha P.
+  - family: Rey‐Velasco
+    given: Juan Carlos
+  - family: Rosselli
+    given: Loreta
+  - family: Smith‐Pardo
+    given: Allan H.
+  - family: Urbina‐Cardona
+    given: José Nicolás
+  - family: Purvis
+    given: Andy
+  container-title: Diversity and Distributions
+  doi: 10.1111/ddi.12478
+  id: Echeverria-Londono2016
+  issn: 1366-9516
+  issued: 2016-11
+  page: 1099-1111
+  title: Modelling and projecting the response of local assemblage
+    composition to land use change across colombia
+  type: article-journal
+  volume: 22
+- author:
+  - family: Newbold
+    given: Tim
+  - family: Hudson
+    given: Lawrence N.
+  - family: Hill
+    given: Samantha L. L.
+  - family: Contu
+    given: Sara
+  - family: Lysenko
+    given: Igor
+  - family: Senior
+    given: Rebecca A.
+  - family: Börger
+    given: Luca
+  - family: Bennett
+    given: Dominic J.
+  - family: Choimes
+    given: Argyrios
+  - family: Collen
+    given: Ben
+  - family: Day
+    given: Julie
+  - family: Palma
+    given: Adriana De
+  - family: Díaz
+    given: Sandra
+  - family: Echeverria-Londoño
+    given: Susy
+  - family: Edgar
+    given: Melanie J.
+  - family: Feldman
+    given: Anat
+  - family: Garon
+    given: Morgan
+  - family: Harrison
+    given: Michelle L. K.
+  - family: Alhusseini
+    given: Tamera
+  - family: Ingram
+    given: Daniel J.
+  - family: Itescu
+    given: Yuval
+  - family: Kattge
+    given: Jens
+  - family: Kemp
+    given: Victoria
+  - family: Kirkpatrick
+    given: Lucinda
+  - family: Kleyer
+    given: Michael
+  - family: Correia
+    given: David Laginha Pinto
+  - family: Martin
+    given: Callum D.
+  - family: Meiri
+    given: Shai
+  - family: Novosolov
+    given: Maria
+  - family: Pan
+    given: Yuan
+  - family: Phillips
+    given: Helen R. P.
+  - family: Purves
+    given: Drew W.
+  - family: Robinson
+    given: Alexandra
+  - family: Simpson
+    given: Jake
+  - family: Tuck
+    given: Sean L.
+  - family: Weiher
+    given: Evan
+  - family: White
+    given: Hannah J.
+  - family: Ewers
+    given: Robert M.
+  - family: Mace
+    given: Georgina M.
+  - family: Scharlemann
+    given: Jörn P. W.
+  - family: Purvis
+    given: Andy
+  container-title: Nature
+  doi: 10.1038/nature14324
+  id: Newbold2015
+  issn: 0028-0836
+  issued: 2015-04
+  page: 45-50
+  title: Global effects of land use on local terrestrial biodiversity
+  type: article-journal
+  volume: 520
+- abstract: \<p\> Biodiversity continues to decline in the face of
+    increasing anthropogenic pressures such as habitat destruction,
+    exploitation, pollution and introduction of alien species. Existing
+    global databases of species' threat status or population time series
+    are dominated by charismatic species. The collation of datasets with
+    broad taxonomic and biogeographic extents, and that support
+    computation of a range of biodiversity indicators, is necessary to
+    enable better understanding of historical declines and to project --
+    and avert -- future declines. We describe and assess a new database
+    of more than 1.6 million samples from 78 countries representing over
+    28,000 species, collated from existing spatial comparisons of
+    local‐scale biodiversity exposed to different intensities and types
+    of anthropogenic pressures, from terrestrial sites around the world.
+    The database contains measurements taken in 208 (of 814) ecoregions,
+    13 (of 14) biomes, 25 (of 35) biodiversity hotspots and 16 (of 17)
+    megadiverse countries. The database contains more than 1
+  author:
+  - family: Hudson
+    given: Lawrence N.
+  - family: Newbold
+    given: Tim
+  - family: Contu
+    given: Sara
+  - family: Hill
+    given: Samantha L. L.
+  - family: Lysenko
+    given: Igor
+  - family: Palma
+    given: Adriana De
+  - family: Phillips
+    given: Helen R. P.
+  - family: Senior
+    given: Rebecca A.
+  - family: Bennett
+    given: Dominic J.
+  - family: Booth
+    given: Hollie
+  - family: Choimes
+    given: Argyrios
+  - family: Correia
+    given: David L. P.
+  - family: Day
+    given: Julie
+  - family: Echeverría‐Londoño
+    given: Susy
+  - family: Garon
+    given: Morgan
+  - family: Harrison
+    given: Michelle L. K.
+  - family: Ingram
+    given: Daniel J.
+  - family: Jung
+    given: Martin
+  - family: Kemp
+    given: Victoria
+  - family: Kirkpatrick
+    given: Lucinda
+  - family: Martin
+    given: Callum D.
+  - family: Pan
+    given: Yuan
+  - family: White
+    given: Hannah J.
+  - family: Aben
+    given: Job
+  - family: Abrahamczyk
+    given: Stefan
+  - family: Adum
+    given: Gilbert B.
+  - family: Aguilar‐Barquero
+    given: Virginia
+  - family: Aizen
+    given: Marcelo A.
+  - family: Ancrenaz
+    given: Marc
+  - family: Arbeláez‐Cortés
+    given: Enrique
+  - family: Armbrecht
+    given: Inge
+  - family: Azhar
+    given: Badrul
+  - family: Azpiroz
+    given: Adrián B.
+  - family: Baeten
+    given: Lander
+  - family: Báldi
+    given: András
+  - family: Banks
+    given: John E.
+  - family: Barlow
+    given: Jos
+  - family: Batáry
+    given: Péter
+  - family: Bates
+    given: Adam J.
+  - family: Bayne
+    given: Erin M.
+  - family: Beja
+    given: Pedro
+  - family: Berg
+    given: Åke
+  - family: Berry
+    given: Nicholas J.
+  - family: Bicknell
+    given: Jake E.
+  - family: Bihn
+    given: Jochen H.
+  - family: Böhning‐Gaese
+    given: Katrin
+  - family: Boekhout
+    given: Teun
+  - family: Boutin
+    given: Céline
+  - family: Bouyer
+    given: Jérémy
+  - family: Brearley
+    given: Francis Q.
+  - family: Brito
+    given: Isabel
+  - family: Brunet
+    given: Jörg
+  - family: Buczkowski
+    given: Grzegorz
+  - family: Buscardo
+    given: Erika
+  - family: Cabra‐García
+    given: Jimmy
+  - family: Calviño‐Cancela
+    given: María
+  - family: Cameron
+    given: Sydney A.
+  - family: Cancello
+    given: Eliana M.
+  - family: Carrijo
+    given: Tiago F.
+  - family: Carvalho
+    given: Anelena L.
+  - family: Castro
+    given: Helena
+  - family: Castro‐Luna
+    given: Alejandro A.
+  - family: Cerda
+    given: Rolando
+  - family: Cerezo
+    given: Alexis
+  - family: Chauvat
+    given: Matthieu
+  - family: Clarke
+    given: Frank M.
+  - family: Cleary
+    given: Daniel F. R.
+  - family: Connop
+    given: Stuart P.
+  - family: D'Aniello
+    given: Biagio
+  - dropping-particle: da
+    family: Silva
+    given: Pedro Giovâni
+  - family: Darvill
+    given: Ben
+  - family: Dauber
+    given: Jens
+  - family: Dejean
+    given: Alain
+  - family: Diekötter
+    given: Tim
+  - family: Dominguez‐Haydar
+    given: Yamileth
+  - family: Dormann
+    given: Carsten F.
+  - family: Dumont
+    given: Bertrand
+  - family: Dures
+    given: Simon G.
+  - family: Dynesius
+    given: Mats
+  - family: Edenius
+    given: Lars
+  - family: Elek
+    given: Zoltán
+  - family: Entling
+    given: Martin H.
+  - family: Farwig
+    given: Nina
+  - family: Fayle
+    given: Tom M.
+  - family: Felicioli
+    given: Antonio
+  - family: Felton
+    given: Annika M.
+  - family: Ficetola
+    given: Gentile F.
+  - family: Filgueiras
+    given: Bruno K. C.
+  - family: Fonte
+    given: Steven J.
+  - family: Fraser
+    given: Lauchlan H.
+  - family: Fukuda
+    given: Daisuke
+  - family: Furlani
+    given: Dario
+  - family: Ganzhorn
+    given: Jörg U.
+  - family: Garden
+    given: Jenni G.
+  - family: Gheler‐Costa
+    given: Carla
+  - family: Giordani
+    given: Paolo
+  - family: Giordano
+    given: Simonetta
+  - family: Gottschalk
+    given: Marco S.
+  - family: Goulson
+    given: Dave
+  - family: Gove
+    given: Aaron D.
+  - family: Grogan
+    given: James
+  - family: Hanley
+    given: Mick E.
+  - family: Hanson
+    given: Thor
+  - family: Hashim
+    given: Nor R.
+  - family: Hawes
+    given: Joseph E.
+  - family: Hébert
+    given: Christian
+  - family: Helden
+    given: Alvin J.
+  - family: Henden
+    given: John‐André
+  - family: Hernández
+    given: Lionel
+  - family: Herzog
+    given: Felix
+  - family: Higuera‐Diaz
+    given: Diego
+  - family: Hilje
+    given: Branko
+  - family: Horgan
+    given: Finbarr G.
+  - family: Horváth
+    given: Roland
+  - family: Hylander
+    given: Kristoffer
+  - family: Isaacs‐Cubides
+    given: Paola
+  - family: Ishitani
+    given: Masahiro
+  - family: Jacobs
+    given: Carmen T.
+  - family: Jaramillo
+    given: Víctor J.
+  - family: Jauker
+    given: Birgit
+  - family: Jonsell
+    given: Mats
+  - family: Jung
+    given: Thomas S.
+  - family: Kapoor
+    given: Vena
+  - family: Kati
+    given: Vassiliki
+  - family: Katovai
+    given: Eric
+  - family: Kessler
+    given: Michael
+  - family: Knop
+    given: Eva
+  - family: Kolb
+    given: Annette
+  - family: Kőrösi
+    given: Ádám
+  - family: Lachat
+    given: Thibault
+  - family: Lantschner
+    given: Victoria
+  - family: Féon
+    given: Violette Le
+  - family: LeBuhn
+    given: Gretchen
+  - family: Légaré
+    given: Jean‐Philippe
+  - family: Letcher
+    given: Susan G.
+  - family: Littlewood
+    given: Nick A.
+  - family: López‐Quintero
+    given: Carlos A.
+  - family: Louhaichi
+    given: Mounir
+  - family: Lövei
+    given: Gabor L.
+  - family: Lucas‐Borja
+    given: Manuel Esteban
+  - family: Luja
+    given: Victor H.
+  - family: Maeto
+    given: Kaoru
+  - family: Magura
+    given: Tibor
+  - family: Mallari
+    given: Neil Aldrin
+  - family: Marin‐Spiotta
+    given: Erika
+  - family: Marshall
+    given: E. J. P.
+  - family: Martínez
+    given: Eliana
+  - family: Mayfield
+    given: Margaret M.
+  - family: Mikusinski
+    given: Grzegorz
+  - family: Milder
+    given: Jeffrey C.
+  - family: Miller
+    given: James R.
+  - family: Morales
+    given: Carolina L.
+  - family: Muchane
+    given: Mary N.
+  - family: Muchane
+    given: Muchai
+  - family: Naidoo
+    given: Robin
+  - family: Nakamura
+    given: Akihiro
+  - family: Naoe
+    given: Shoji
+  - family: Nates‐Parra
+    given: Guiomar
+  - family: Gutierrez
+    given: Dario A. Navarrete
+  - family: Neuschulz
+    given: Eike L.
+  - family: Noreika
+    given: Norbertas
+  - family: Norfolk
+    given: Olivia
+  - family: Noriega
+    given: Jorge Ari
+  - family: Nöske
+    given: Nicole M.
+  - family: O'Dea
+    given: Niall
+  - family: Oduro
+    given: William
+  - family: Ofori‐Boateng
+    given: Caleb
+  - family: Oke
+    given: Chris O.
+  - family: Osgathorpe
+    given: Lynne M.
+  - family: Paritsis
+    given: Juan
+  - family: Parra‐H
+    given: Alejandro
+  - family: Pelegrin
+    given: Nicolás
+  - family: Peres
+    given: Carlos A.
+  - family: Persson
+    given: Anna S.
+  - family: Petanidou
+    given: Theodora
+  - family: Phalan
+    given: Ben
+  - family: Philips
+    given: T. Keith
+  - family: Poveda
+    given: Katja
+  - family: Power
+    given: Eileen F.
+  - family: Presley
+    given: Steven J.
+  - family: Proença
+    given: Vânia
+  - family: Quaranta
+    given: Marino
+  - family: Quintero
+    given: Carolina
+  - family: Redpath‐Downing
+    given: Nicola A.
+  - family: Reid
+    given: J. Leighton
+  - family: Reis
+    given: Yana T.
+  - family: Ribeiro
+    given: Danilo B.
+  - family: Richardson
+    given: Barbara A.
+  - family: Richardson
+    given: Michael J.
+  - family: Robles
+    given: Carolina A.
+  - family: Römbke
+    given: Jörg
+  - family: Romero‐Duque
+    given: Luz Piedad
+  - family: Rosselli
+    given: Loreta
+  - family: Rossiter
+    given: Stephen J.
+  - family: Roulston
+    given: T'ai H.
+  - family: Rousseau
+    given: Laurent
+  - family: Sadler
+    given: Jonathan P.
+  - family: Sáfián
+    given: Szabolcs
+  - family: Saldaña‐Vázquez
+    given: Romeo A.
+  - family: Samnegård
+    given: Ulrika
+  - family: Schüepp
+    given: Christof
+  - family: Schweiger
+    given: Oliver
+  - family: Sedlock
+    given: Jodi L.
+  - family: Shahabuddin
+    given: Ghazala
+  - family: Sheil
+    given: Douglas
+  - family: Silva
+    given: Fernando A. B.
+  - family: Slade
+    given: Eleanor M.
+  - family: Smith‐Pardo
+    given: Allan H.
+  - family: Sodhi
+    given: Navjot S.
+  - family: Somarriba
+    given: Eduardo J.
+  - family: Sosa
+    given: Ramón A.
+  - family: Stout
+    given: Jane C.
+  - family: Struebig
+    given: Matthew J.
+  - family: Sung
+    given: Yik‐Hei
+  - family: Threlfall
+    given: Caragh G.
+  - family: Tonietto
+    given: Rebecca
+  - family: Tóthmérész
+    given: Béla
+  - family: Tscharntke
+    given: Teja
+  - family: Turner
+    given: Edgar C.
+  - family: Tylianakis
+    given: Jason M.
+  - family: Vanbergen
+    given: Adam J.
+  - family: Vassilev
+    given: Kiril
+  - family: Verboven
+    given: Hans A. F.
+  - family: Vergara
+    given: Carlos H.
+  - family: Vergara
+    given: Pablo M.
+  - family: Verhulst
+    given: Jort
+  - family: Walker
+    given: Tony R.
+  - family: Wang
+    given: Yanping
+  - family: Watling
+    given: James I.
+  - family: Wells
+    given: Konstans
+  - family: Williams
+    given: Christopher D.
+  - family: Willig
+    given: Michael R.
+  - family: Woinarski
+    given: John C. Z.
+  - family: Wolf
+    given: Jan H. D.
+  - family: Woodcock
+    given: Ben A.
+  - family: Yu
+    given: Douglas W.
+  - family: Zaitsev
+    given: Andrey S.
+  - family: Collen
+    given: Ben
+  - family: Ewers
+    given: Rob M.
+  - family: Mace
+    given: Georgina M.
+  - family: Purves
+    given: Drew W.
+  - family: Scharlemann
+    given: Jörn P. W.
+  - family: Purvis
+    given: Andy
+  container-title: Ecology and Evolution
+  doi: 10.1002/ece3.1303
+  id: Hudson2014
+  issn: 2045-7758
+  issued: 2014-12
+  page: 4701-4735
+  title: "The PREDICTS database: A global database of how local
+    terrestrial biodiversity responds to human impacts"
+  title-short: The PREDICTS database
+  type: article-journal
+  volume: 4
+- author:
+  - family: Echeverria-Londono
+    given: Susy
+  - family: Miranda-Esquivel
+    given: Daniel Rafael
+  container-title: PLoS ONE
+  doi: 10.1371/journal.pone.0018460
+  id: Echeverria-Londono2011
+  issn: 1932-6203
+  issued: 2011-04
+  page: e18460
+  title: "MartiTracks: A geometrical approach for identifying
+    geographical patterns of distribution"
+  title-short: MartiTracks
+  type: article-journal
+  volume: 6
+- author:
+  - family: Hartner
+    given: Anna-Maria
+  - family: Li
+    given: Xiang
+  - family: Echeverria-Londono
+    given: Susy
+  - family: Roth
+    given: Jeremy
+  - family: Abbas
+    given: Kaja
+  - family: Auzenbergs
+    given: Megan
+  - dropping-particle: de
+    family: Villiers
+    given: Margaret J
+  - family: Ferrari
+    given: Matthew J
+  - family: Fraser
+    given: Keith
+  - family: Fu
+    given: Han
+  - family: Hallett
+    given: Timothy
+  - family: Hinsley
+    given: Wes
+  - family: Jit
+    given: Mark
+  - family: Karachaliou
+    given: Andromachi
+  - family: Moore
+    given: Sean M
+  - family: Nayagam
+    given: Shevanthi
+  - family: Papadopoulos
+    given: Timos
+  - family: Perkins
+    given: T Alex
+  - family: Portnoy
+    given: Allison
+  - family: Minh
+    given: Quan Tran
+  - family: Vynnycky
+    given: Emilia
+  - family: Winter
+    given: Amy K
+  - family: Burrows
+    given: Holly
+  - family: Chen
+    given: Cynthia
+  - family: Clapham
+    given: Hannah E
+  - family: Deshpande
+    given: Aniruddha
+  - family: Hauryski
+    given: Sarah
+  - family: Huber
+    given: John
+  - family: Jean
+    given: Kevin
+  - family: Kim
+    given: Chaelin
+  - family: Kim
+    given: Jong-Hoon
+  - family: Koh
+    given: Jemima
+  - family: Lopman
+    given: Benjamin A
+  - family: Pitzer
+    given: Virginia E
+  - family: Tam
+    given: Yvonne
+  - family: Lambach
+    given: Philipp
+  - family: Sim
+    given: So Yoon
+  - family: Woodruff
+    given: Kim
+  - family: Ferguson
+    given: Neil M
+  - family: Trotter
+    given: Caroline L
+  - family: Gaythorpe
+    given: Katy A M
+  container-title: The Lancet Global Health
+  doi: 10.1016/S2214-109X(23)00603-4
+  id: Hartner2024
+  issn: 2214109X
+  issued: 2024-04
+  page: e563-e571
+  title: "Estimating the health effects of COVID-19-related immunisation
+    disruptions in 112 countries during 2020--30: A modelling study"
+  title-short: Estimating the health effects of COVID-19-related
+    immunisation disruptions in 112 countries during 2020--30
+  type: article-journal
+  volume: 12

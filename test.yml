@@ -1,0 +1,11 @@
+- title: "Publication Title 1"
+  author: ["Author A", "Author B"]
+  journal: "Journal Name"
+  year: 2022
+  doi: "10.1234/example.doi1"
+
+- title: "Publication Title 2"
+  author: ["Author C", "Author D"]
+  journal: "Another Journal"
+  year: 2021
+  doi: "10.1234/example.doi2"
