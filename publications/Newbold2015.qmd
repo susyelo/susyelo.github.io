@@ -1,0 +1,15 @@
+---
+title: "Global effects of land use on local terrestrial biodiversity"
+type: "article"
+author: "Tim Newbold, Lawrence N. Hudson, Samantha L. L. Hill, Sara Contu, Igor Lysenko, Rebecca A. Senior, Luca Börger, Dominic J. Bennett, Argyrios Choimes, Ben Collen, Julie Day, Adriana De Palma, Sandra Díaz, Susy Echeverria-Londoño, Melanie J. Edgar, Anat Feldman, Morgan Garon, Michelle L. K. Harrison, Tamera Alhusseini, Daniel J. Ingram, Yuval Itescu, Jens Kattge, Victoria Kemp, Lucinda Kirkpatrick, Michael Kleyer, David Laginha Pinto Correia, Callum D. Martin, Shai Meiri, Maria Novosolov, Yuan Pan, Helen R. P. Phillips, Drew W. Purves, Alexandra Robinson, Jake Simpson, Sean L. Tuck, Evan Weiher, Hannah J. White, Robert M. Ewers, Georgina M. Mace, Jörn P. W. Scharlemann, Andy Purvis"
+year: "2015"
+doi: "10.1038/nature14324"
+categories: []
+---
+
+# Abstract
+No abstract available.
+
+# Citation (APA)
+Tim Newbold, Lawrence N. Hudson, Samantha L. L. Hill, Sara Contu, Igor Lysenko, Rebecca A. Senior, Luca Börger, Dominic J. Bennett, Argyrios Choimes, Ben Collen, Julie Day, Adriana De Palma, Sandra Díaz, Susy Echeverria-Londoño, Melanie J. Edgar, Anat Feldman, Morgan Garon, Michelle L. K. Harrison, Tamera Alhusseini, Daniel J. Ingram, Yuval Itescu, Jens Kattge, Victoria Kemp, Lucinda Kirkpatrick, Michael Kleyer, David Laginha Pinto Correia, Callum D. Martin, Shai Meiri, Maria Novosolov, Yuan Pan, Helen R. P. Phillips, Drew W. Purves, Alexandra Robinson, Jake Simpson, Sean L. Tuck, Evan Weiher, Hannah J. White, Robert M. Ewers, Georgina M. Mace, Jörn P. W. Scharlemann, Andy Purvis (2015). Global effects of land use on local terrestrial biodiversity *Nature*, 520(7545), 45-50. 10.1038/nature14324
+

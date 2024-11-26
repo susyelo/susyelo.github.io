@@ -1,0 +1,15 @@
+---
+title: "How can the public health impact of vaccination be estimated?"
+type: "article"
+author: "Susy Echeverria-Londono, Xiang Li, Jaspreet Toor, Margaret J. de Villiers, Shevanthi Nayagam, Timothy B. Hallett, Kaja Abbas, Mark Jit, Petra Klepac, Kévin Jean, Tini Garske, Neil M. Ferguson, Katy A. M. Gaythorpe"
+year: "2021"
+doi: "10.1186/s12889-021-12040-9"
+categories: []
+---
+
+# Abstract
+No abstract available.
+
+# Citation (APA)
+Susy Echeverria-Londono, Xiang Li, Jaspreet Toor, Margaret J. de Villiers, Shevanthi Nayagam, Timothy B. Hallett, Kaja Abbas, Mark Jit, Petra Klepac, Kévin Jean, Tini Garske, Neil M. Ferguson, Katy A. M. Gaythorpe (2021). How can the public health impact of vaccination be estimated? *BMC Public Health*, 21(1), 2049. 10.1186/s12889-021-12040-9
+

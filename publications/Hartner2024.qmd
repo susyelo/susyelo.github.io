@@ -1,0 +1,15 @@
+---
+title: "Estimating the health effects of COVID-19-related immunisation disruptions in 112 countries during 2020–30: a modelling study"
+type: "article"
+author: "Anna-Maria Hartner, Xiang Li, Susy Echeverria-Londono, Jeremy Roth, Kaja Abbas, Megan Auzenbergs, Margaret J de Villiers, Matthew J Ferrari, Keith Fraser, Han Fu, Timothy Hallett, Wes Hinsley, Mark Jit, Andromachi Karachaliou, Sean M Moore, Shevanthi Nayagam, Timos Papadopoulos, T Alex Perkins, Allison Portnoy, Quan Tran Minh, Emilia Vynnycky, Amy K Winter, Holly Burrows, Cynthia Chen, Hannah E Clapham, Aniruddha Deshpande, Sarah Hauryski, John Huber, Kevin Jean, Chaelin Kim, Jong-Hoon Kim, Jemima Koh, Benjamin A Lopman, Virginia E Pitzer, Yvonne Tam, Philipp Lambach, So Yoon Sim, Kim Woodruff, Neil M Ferguson, Caroline L Trotter, Katy A M Gaythorpe"
+year: "2024"
+doi: "10.1016/S2214-109X(23)00603-4"
+categories: []
+---
+
+# Abstract
+No abstract available.
+
+# Citation (APA)
+Anna-Maria Hartner, Xiang Li, Susy Echeverria-Londono, Jeremy Roth, Kaja Abbas, Megan Auzenbergs, Margaret J de Villiers, Matthew J Ferrari, Keith Fraser, Han Fu, Timothy Hallett, Wes Hinsley, Mark Jit, Andromachi Karachaliou, Sean M Moore, Shevanthi Nayagam, Timos Papadopoulos, T Alex Perkins, Allison Portnoy, Quan Tran Minh, Emilia Vynnycky, Amy K Winter, Holly Burrows, Cynthia Chen, Hannah E Clapham, Aniruddha Deshpande, Sarah Hauryski, John Huber, Kevin Jean, Chaelin Kim, Jong-Hoon Kim, Jemima Koh, Benjamin A Lopman, Virginia E Pitzer, Yvonne Tam, Philipp Lambach, So Yoon Sim, Kim Woodruff, Neil M Ferguson, Caroline L Trotter, Katy A M Gaythorpe (2024). Estimating the health effects of COVID-19-related immunisation disruptions in 112 countries during 2020–30: a modelling study *The Lancet Global Health*, 12(4), e563-e571. 10.1016/S2214-109X(23)00603-4
+

@@ -1,0 +1,15 @@
+---
+title: "The adaptive challenge of extreme conditions shapes evolutionary diversity of plant assemblages at continental scales"
+type: "article"
+author: "Danilo M. Neves, Andrew J. Kerkhoff, Susy Echeverría-Londoño, Cory Merow, Naia Morueta-Holme, Robert K. Peet, Brody Sandel, Jens-Christian Svenning, Susan K. Wiser, Brian J. Enquist"
+year: "2021"
+doi: "10.1073/pnas.2021132118"
+categories: []
+---
+
+# Abstract
+<p>We explore an extended view of the tropical conservatism hypothesis to account for two often-neglected components of climatic stress: drought and the combined effect of seasonal cold and drought—the latter being a common feature of extratropical dry environments. We show that evolutionary diversity of angiosperm assemblages in extratropical dry biomes is even lower than in biomes subject to only one type of climatic stress. We further show that evolutionary diversity in many assemblages from eastern North America is higher or comparable to that of tropical moist forests, suggesting that some extratropical moist biomes have accumulated angiosperm lineages over deep evolutionary timescales with their flora assembled from lineages that represent the entirety of the angiosperm tree of life.</p>
+
+# Citation (APA)
+Danilo M. Neves, Andrew J. Kerkhoff, Susy Echeverría-Londoño, Cory Merow, Naia Morueta-Holme, Robert K. Peet, Brody Sandel, Jens-Christian Svenning, Susan K. Wiser, Brian J. Enquist (2021). The adaptive challenge of extreme conditions shapes evolutionary diversity of plant assemblages at continental scales *Proceedings of the National Academy of Sciences*, 118(37), NA. 10.1073/pnas.2021132118
+

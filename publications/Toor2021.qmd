@@ -1,0 +1,15 @@
+---
+title: "Lives saved with vaccination for 10 pathogens across 112 countries in a pre-COVID-19 world"
+type: "article"
+author: "Jaspreet Toor, Susy Echeverria-Londono, Xiang Li, Kaja Abbas, Emily D Carter, Hannah E Clapham, Andrew Clark, Margaret J de Villiers, Kirsten Eilertson, Matthew Ferrari, Ivane Gamkrelidze, Timothy B Hallett, Wes R Hinsley, Daniel Hogan, John H Huber, Michael L Jackson, Kevin Jean, Mark Jit, Andromachi Karachaliou, Petra Klepac, Alicia Kraay, Justin Lessler, Xi Li, Benjamin A Lopman, Tewodaj Mengistu, C Jessica E Metcalf, Sean M Moore, Shevanthi Nayagam, Timos Papadopoulos, T Alex Perkins, Allison Portnoy, Homie Razavi, Devin Razavi-Shearer, Stephen Resch, Colin Sanderson, Steven Sweet, Yvonne Tam, Hira Tanvir, Quan Tran Minh, Caroline L Trotter, Shaun A Truelove, Emilia Vynnycky, Neff Walker, Amy Winter, Kim Woodruff, Neil M Ferguson, Katy AM Gaythorpe"
+year: "2021"
+doi: "10.7554/eLife.67635"
+categories: []
+---
+
+# Abstract
+No abstract available.
+
+# Citation (APA)
+Jaspreet Toor, Susy Echeverria-Londono, Xiang Li, Kaja Abbas, Emily D Carter, Hannah E Clapham, Andrew Clark, Margaret J de Villiers, Kirsten Eilertson, Matthew Ferrari, Ivane Gamkrelidze, Timothy B Hallett, Wes R Hinsley, Daniel Hogan, John H Huber, Michael L Jackson, Kevin Jean, Mark Jit, Andromachi Karachaliou, Petra Klepac, Alicia Kraay, Justin Lessler, Xi Li, Benjamin A Lopman, Tewodaj Mengistu, C Jessica E Metcalf, Sean M Moore, Shevanthi Nayagam, Timos Papadopoulos, T Alex Perkins, Allison Portnoy, Homie Razavi, Devin Razavi-Shearer, Stephen Resch, Colin Sanderson, Steven Sweet, Yvonne Tam, Hira Tanvir, Quan Tran Minh, Caroline L Trotter, Shaun A Truelove, Emilia Vynnycky, Neff Walker, Amy Winter, Kim Woodruff, Neil M Ferguson, Katy AM Gaythorpe (2021). Lives saved with vaccination for 10 pathogens across 112 countries in a pre-COVID-19 world *eLife*, 10(NA), NA. 10.7554/eLife.67635
+

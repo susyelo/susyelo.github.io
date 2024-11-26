@@ -1,0 +1,15 @@
+---
+title: "Dynamism and context‐dependency in diversification of the megadiverse plant genus <i>Solanum</i> (Solanaceae)"
+type: "article"
+author: "Susy Echeverria-Londono, Tiina Sarkinen, Isabel S. Fenton, Andy Purvis, Sandra Knapp"
+year: "2020"
+doi: "10.1111/jse.12638"
+categories: []
+---
+
+# Abstract
+No abstract available.
+
+# Citation (APA)
+Susy Echeverria-Londono, Tiina Sarkinen, Isabel S. Fenton, Andy Purvis, Sandra Knapp (2020). Dynamism and context‐dependency in diversification of the megadiverse plant genus <i>Solanum</i> (Solanaceae) *Journal of Systematics and Evolution*, 58(6), 767-782. 10.1111/jse.12638
+

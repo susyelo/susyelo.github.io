@@ -71,20 +71,21 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-articles .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-year','listing-doi',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-author","listing-container-title","listing-doi","listing-id","listing-issued","listing-title","listing-title-short","listing-type","listing-issn","listing-page","listing-volume","listing-abstract"],
+      valueNames: ['listing-project','listing-website','listing-format','listing-editor','listing-language','listing-title','listing-type','listing-author','listing-year','listing-doi','listing-categories','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] }],
+      page: 10,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author","listing-publication","listing-year"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -133,7 +134,7 @@ window.Quarto = {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -171,54 +172,38 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Publications</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(18)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 
 
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Publications</li>
+  </ol>
+</nav>
+<div id="listing-articles" class="quarto-listing quarto-listing-container-custom">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-articles-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-articles'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
          <option value="listing-author" data-direction="asc">
           Author
         </option>
-         <option value="listing-doi" data-direction="asc">
-          doi
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
+         <option value="listing-year" data-direction="asc">
+          Year
         </option>
      </select>
   </div>
@@ -227,310 +212,328 @@ window.Quarto = {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
-</th>
-<th>
-year
-</th>
-<th>
-<a class="sort" data-sort="listing-doi" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">doi</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-title-sort="COVID-19 related immunisation disruptions from 2020-2030: Projecting health impact and mitigation strategies for 14 pathogens across 112 low- and middle-income countries">
-<td>
-<span class="listing-title">COVID-19 related immunisation disruptions from 2020-2030: Projecting health impact and mitigation strategies for 14 pathogens across 112 low- and middle-income countries</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.2139/ssrn.4492698</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-title-sort="Vaccine equity in low and middle income countries: A systematic review and meta-analysis">
-<td>
-<span class="listing-title">Vaccine equity in low and middle income countries: A systematic review and meta-analysis</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.1186/s12939-022-01678-5</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-title-sort="Exploring the subnational inequality and heterogeneity of the impact of routine measles immunisation in africa">
-<td>
-<span class="listing-title">Exploring the subnational inequality and heterogeneity of the impact of routine measles immunisation in africa</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.1016/j.vaccine.2022.09.049</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-title-sort="COVID-19 impact on routine immunisations for vaccine-preventable diseases: Projecting the effect of different routes to recovery">
-<td>
-<span class="listing-title">COVID-19 impact on routine immunisations for vaccine-preventable diseases: Projecting the effect of different routes to recovery</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.1016/j.vaccine.2022.05.074</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-title-sort="Vaccine equity in low and middle income countries: A systematic review and meta-analysis">
-<td>
-<span class="listing-title">Vaccine equity in low and middle income countries: A systematic review and meta-analysis</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.1186/s12939-022-01678-5</span>
-</td>
-</tr>
-<tr data-index="5" data-listing-title-sort="How can the public health impact of vaccination be estimated?">
-<td>
-<span class="listing-title">How can the public health impact of vaccination be estimated?</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.1186/s12889-021-12040-9</span>
-</td>
-</tr>
-<tr data-index="6" data-listing-title-sort="Lives saved with vaccination for 10 pathogens across 112 countries in a pre-COVID-19 world">
-<td>
-<span class="listing-title">Lives saved with vaccination for 10 pathogens across 112 countries in a pre-COVID-19 world</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.7554/eLife.67635</span>
-</td>
-</tr>
-<tr data-index="7" data-listing-title-sort="Vaccines can save children with non-preventable diseases -- authors' reply">
-<td>
-<span class="listing-title">Vaccines can save children with non-preventable diseases – authors’ reply</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.1016/S0140-6736(21)01015-1</span>
-</td>
-</tr>
-<tr data-index="8" data-listing-title-sort="Estimating the health impact of vaccination against ten pathogens in 98 low-income and middle-income countries from 2000 to 2030: A modelling study">
-<td>
-<span class="listing-title">Estimating the health impact of vaccination against ten pathogens in 98 low-income and middle-income countries from 2000 to 2030: A modelling study</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.1016/S0140-6736(20)32657-X</span>
-</td>
-</tr>
-<tr data-index="9" data-listing-title-sort="Impact of COVID-19-related disruptions to measles, meningococcal a, and yellow fever vaccination in 10 countries">
-<td>
-<span class="listing-title">Impact of COVID-19-related disruptions to measles, meningococcal a, and yellow fever vaccination in 10 countries</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.7554/eLife.67023</span>
-</td>
-</tr>
-<tr data-index="10" data-listing-title-sort="The adaptive challenge of extreme conditions shapes evolutionary diversity of plant assemblages at continental scales">
-<td>
-<span class="listing-title">The adaptive challenge of extreme conditions shapes evolutionary diversity of plant assemblages at continental scales</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.1073/pnas.2021132118</span>
-</td>
-</tr>
-<tr data-index="11" data-listing-title-sort="Genomic epidemiology of severe acute respiratory syndrome coronavirus 2, colombia">
-<td>
-<span class="listing-title">Genomic epidemiology of severe acute respiratory syndrome coronavirus 2, colombia</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.3201/eid2612.202969</span>
-</td>
-</tr>
-<tr data-index="12" data-listing-title-sort="Dynamism and context‐dependency in diversification of the megadiverse plant genus \<i\>solanum\</i\> (solanaceae)">
-<td>
-<span class="listing-title">Dynamism and context‐dependency in diversification of the megadiverse plant genus &lt;i&gt;solanum&lt;/i&gt; (solanaceae)</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.1111/jse.12638</span>
-</td>
-</tr>
-<tr data-index="13" data-listing-title-sort="Plant functional diversity and the biogeography of biomes in north and south america">
-<td>
-<span class="listing-title">Plant functional diversity and the biogeography of biomes in north and south america</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.3389/fevo.2018.00219</span>
-</td>
-</tr>
-<tr data-index="14" data-listing-title-sort="The database of the \<scp\>PREDICTS\</scp\> (projecting responses of ecological diversity in changing terrestrial systems) project">
-<td>
-<span class="listing-title">The database of the &lt;scp&gt;PREDICTS&lt;/scp&gt; (projecting responses of ecological diversity in changing terrestrial systems) project</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.1002/ece3.2579</span>
-</td>
-</tr>
-<tr data-index="15" data-listing-title-sort="Modelling and projecting the response of local assemblage composition to land use change across colombia">
-<td>
-<span class="listing-title">Modelling and projecting the response of local assemblage composition to land use change across colombia</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.1111/ddi.12478</span>
-</td>
-</tr>
-<tr data-index="16" data-listing-title-sort="Global effects of land use on local terrestrial biodiversity">
-<td>
-<span class="listing-title">Global effects of land use on local terrestrial biodiversity</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.1038/nature14324</span>
-</td>
-</tr>
-<tr data-index="17" data-listing-title-sort="The PREDICTS database: A global database of how local terrestrial biodiversity responds to human impacts">
-<td>
-<span class="listing-title">The PREDICTS database: A global database of how local terrestrial biodiversity responds to human impacts</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.1002/ece3.1303</span>
-</td>
-</tr>
-<tr data-index="18" data-listing-title-sort="MartiTracks: A geometrical approach for identifying geographical patterns of distribution">
-<td>
-<span class="listing-title">MartiTracks: A geometrical approach for identifying geographical patterns of distribution</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.1371/journal.pone.0018460</span>
-</td>
-</tr>
-<tr data-index="19" data-listing-title-sort="Estimating the health effects of COVID-19-related immunisation disruptions in 112 countries during 2020--30: A modelling study">
-<td>
-<span class="listing-title">Estimating the health effects of COVID-19-related immunisation disruptions in 112 countries during 2020–30: A modelling study</span>
-</td>
-<td>
-<span class="listing-author">[object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object], [object Object]</span>
-</td>
-<td>
-<span class="listing-year">&nbsp;</span>
-</td>
-<td>
-<span class="listing-doi">10.1016/S2214-109X(23)00603-4</span>
-</td>
-</tr>
-</tbody>
-</table>
+<ul class="pub-list list">
+
+  <li data-index="0" data-categories="" data-listing-file-modified-sort="1732632580536" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
+    <span class="listing-title lead">Estimating the health effects of COVID-19-related immunisation disruptions in 112 countries during 2020–30: a modelling study</span><br>
+    <span class="listing-author">Anna-Maria Hartner, Xiang Li, Susy Echeverria-Londono, Jeremy Roth, Kaja Abbas, Megan Auzenbergs, Margaret J de Villiers, Matthew J Ferrari, Keith Fraser, Han Fu, Timothy Hallett, Wes Hinsley, Mark Jit, Andromachi Karachaliou, Sean M Moore, Shevanthi Nayagam, Timos Papadopoulos, T Alex Perkins, Allison Portnoy, Quan Tran Minh, Emilia Vynnycky, Amy K Winter, Holly Burrows, Cynthia Chen, Hannah E Clapham, Aniruddha Deshpande, Sarah Hauryski, John Huber, Kevin Jean, Chaelin Kim, Jong-Hoon Kim, Jemima Koh, Benjamin A Lopman, Virginia E Pitzer, Yvonne Tam, Philipp Lambach, So Yoon Sim, Kim Woodruff, Neil M Ferguson, Caroline L Trotter, Katy A M Gaythorpe</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2024)</span><br>
+    <a href="./publications/Hartner2024.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.1016/S2214-109X(23)00603-4" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="1" data-categories="" data-listing-file-modified-sort="1732632580458" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
+    <span class="listing-title lead">COVID-19 Related Immunisation Disruptions from 2020-2030: Projecting Health Impact and Mitigation Strategies for 14 Pathogens Across 112 Low- and Middle-Income Countries</span><br>
+    <span class="listing-author">Anna-Maria Hartner, Xiang Li, Susy Echeverria-Londono, Jeremy Roth, Kaja Abbas, Megan Auzenbergs, Margaret J. de Villiers, Matthew Ferrari, Keith Fraser, Han Fu, Timothy B. Hallett, Wes Hinsley, Mark Jit, Andromachi Karachaliou Prasinou, Sean Moore, Shevanthi Nayagam, Timos Papadopoulos, T. Alex Perkins, Allison Portnoy, Quan Minh Tran, Emilia Vynnycky, Amy K. Winter, Holly Burrows, Cythia Chen, Hannah E. Clapham, Aniruddha Deshpande, Sarah Hauryski, John Huber, Kévin Jean, Chaelin Kim, Jong-Hoon Kim, Jemima Koh, Ben Lopman, Virginia E. Pitzer, Yvonne Tam, Philipp Lambach, So Yoon Sim, Kim Woodruff, Neil M. Ferguson, Caroline Trotter, Katy A.M. Gaythorpe</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2023)</span><br>
+    <a href="./publications/Hartner2023.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.2139/ssrn.4492698" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="2" data-categories="" data-listing-file-modified-sort="1732632580471" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
+    <span class="listing-title lead">COVID-19 impact on routine immunisations for vaccine-preventable diseases: Projecting the effect of different routes to recovery</span><br>
+    <span class="listing-author">Jaspreet Toor, Xiang Li, Mark Jit, Caroline L. Trotter, Susy Echeverria-Londono, Anna-Maria Hartner, Jeremy Roth, Allison Portnoy, Kaja Abbas, Neil M. Ferguson, Katy AM Gaythorpe</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2022)</span><br>
+    <a href="./publications/Toor2022.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.1016/j.vaccine.2022.05.074" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="3" data-categories="" data-listing-file-modified-sort="1732632580469" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
+    <span class="listing-title lead">Exploring the subnational inequality and heterogeneity of the impact of routine measles immunisation in Africa</span><br>
+    <span class="listing-author">Susy Echeverria-Londono, Anna-Maria Hartner, Xiang Li, Jeremy Roth, Allison Portnoy, Alyssa N. Sbarra, Kaja Abbas, Matthew Ferrari, Han Fu, Mark Jit, Neil M. Ferguson, Katy A.M. Gaythorpe</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2022)</span><br>
+    <a href="./publications/Echeverria-Londono2022.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.1016/j.vaccine.2022.09.049" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="4" data-categories="" data-listing-file-modified-sort="1732632580473" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+    <span class="listing-title lead">Vaccine equity in low and middle income countries: a systematic review and meta-analysis</span><br>
+    <span class="listing-author">Huda Ahmed Ali, Anna-Maria Hartner, Susy Echeverria-Londono, Jeremy Roth, Xiang Li, Kaja Abbas, Allison Portnoy, Emilia Vynnycky, Kim Woodruff, Neil M Ferguson, Jaspreet Toor, Katy AM Gaythorpe</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2022)</span><br>
+    <a href="./publications/Ali2022.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.1186/s12939-022-01678-5" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="5" data-categories="" data-listing-file-modified-sort="1732632580487" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+    <span class="listing-title lead">Estimating the health impact of vaccination against ten pathogens in 98 low-income and middle-income countries from 2000 to 2030: a modelling study</span><br>
+    <span class="listing-author">Xiang Li, Christinah Mukandavire, Zulma M Cucunubá, Susy Echeverria Londono, Kaja Abbas, Hannah E Clapham, Mark Jit, Hope L Johnson, Timos Papadopoulos, Emilia Vynnycky, Marc Brisson, Emily D Carter, Andrew Clark, Margaret J de Villiers, Kirsten Eilertson, Matthew J Ferrari, Ivane Gamkrelidze, Katy A M Gaythorpe, Nicholas C Grassly, Timothy B Hallett, Wes Hinsley, Michael L Jackson, Kévin Jean, Andromachi Karachaliou, Petra Klepac, Justin Lessler, Xi Li, Sean M Moore, Shevanthi Nayagam, Duy Manh Nguyen, Homie Razavi, Devin Razavi-Shearer, Stephen Resch, Colin Sanderson, Steven Sweet, Stephen Sy, Yvonne Tam, Hira Tanvir, Quan Minh Tran, Caroline L Trotter, Shaun Truelove, Kevin van Zandvoort, Stéphane Verguet, Neff Walker, Amy Winter, Kim Woodruff, Neil M Ferguson, Tini Garske</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2021)</span><br>
+    <a href="./publications/Li2021.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.1016/S0140-6736(20)32657-X" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="6" data-categories="" data-listing-file-modified-sort="1732632580475" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
+    <span class="listing-title lead">How can the public health impact of vaccination be estimated?</span><br>
+    <span class="listing-author">Susy Echeverria-Londono, Xiang Li, Jaspreet Toor, Margaret J. de Villiers, Shevanthi Nayagam, Timothy B. Hallett, Kaja Abbas, Mark Jit, Petra Klepac, Kévin Jean, Tini Garske, Neil M. Ferguson, Katy A. M. Gaythorpe</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2021)</span><br>
+    <a href="./publications/Echeverria-Londono2021.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.1186/s12889-021-12040-9" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="7" data-categories="" data-listing-file-modified-sort="1732632580490" data-listing-reading-time-sort="1" data-listing-word-count-sort="83">
+    <span class="listing-title lead">Impact of COVID-19-related disruptions to measles, meningococcal A, and yellow fever vaccination in 10 countries</span><br>
+    <span class="listing-author">Katy AM Gaythorpe, Kaja Abbas, John Huber, Andromachi Karachaliou, Niket Thakkar, Kim Woodruff, Xiang Li, Susy Echeverria-Londono, Andre Arsene Bita Fouda, Felicity Cutts, Emily Dansereau, Antoine Durupt, Ulla Griffiths, Jennifer Horton, L Kendall Krause, Katrina Kretsinger, Tewodaj Mengistu, Imran Mirza, Simon R Procter, Stephanie Shendale, Matthew Ferrari, Michael L Jackson, Kevin McCarthy, T Alex Perkins, Caroline Trotter, Mark Jit</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2021)</span><br>
+    <a href="./publications/Gaythorpe2021.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.7554/eLife.67023" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="8" data-categories="" data-listing-file-modified-sort="1732632580478" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
+    <span class="listing-title lead">Lives saved with vaccination for 10 pathogens across 112 countries in a pre-COVID-19 world</span><br>
+    <span class="listing-author">Jaspreet Toor, Susy Echeverria-Londono, Xiang Li, Kaja Abbas, Emily D Carter, Hannah E Clapham, Andrew Clark, Margaret J de Villiers, Kirsten Eilertson, Matthew Ferrari, Ivane Gamkrelidze, Timothy B Hallett, Wes R Hinsley, Daniel Hogan, John H Huber, Michael L Jackson, Kevin Jean, Mark Jit, Andromachi Karachaliou, Petra Klepac, Alicia Kraay, Justin Lessler, Xi Li, Benjamin A Lopman, Tewodaj Mengistu, C Jessica E Metcalf, Sean M Moore, Shevanthi Nayagam, Timos Papadopoulos, T Alex Perkins, Allison Portnoy, Homie Razavi, Devin Razavi-Shearer, Stephen Resch, Colin Sanderson, Steven Sweet, Yvonne Tam, Hira Tanvir, Quan Tran Minh, Caroline L Trotter, Shaun A Truelove, Emilia Vynnycky, Neff Walker, Amy Winter, Kim Woodruff, Neil M Ferguson, Katy AM Gaythorpe</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2021)</span><br>
+    <a href="./publications/Toor2021.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.7554/eLife.67635" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="9" data-categories="" data-listing-file-modified-sort="1732632580492" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
+    <span class="listing-title lead">The adaptive challenge of extreme conditions shapes evolutionary diversity of plant assemblages at continental scales</span><br>
+    <span class="listing-author">Danilo M. Neves, Andrew J. Kerkhoff, Susy Echeverría-Londoño, Cory Merow, Naia Morueta-Holme, Robert K. Peet, Brody Sandel, Jens-Christian Svenning, Susan K. Wiser, Brian J. Enquist</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2021)</span><br>
+    <a href="./publications/Neves2021.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.1073/pnas.2021132118" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="10" data-categories="" data-listing-file-modified-sort="1732632580497" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
+    <span class="listing-title lead">Dynamism and context‐dependency in diversification of the megadiverse plant genus <i>Solanum</i> (Solanaceae)</span><br>
+    <span class="listing-author">Susy Echeverria-Londono, Tiina Sarkinen, Isabel S. Fenton, Andy Purvis, Sandra Knapp</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2020)</span><br>
+    <a href="./publications/Echeverria-Londono2020.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.1111/jse.12638" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="11" data-categories="" data-listing-file-modified-sort="1732632580495" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
+    <span class="listing-title lead">Genomic Epidemiology of Severe Acute Respiratory Syndrome Coronavirus 2, Colombia</span><br>
+    <span class="listing-author">Katherine Laiton-Donato, Christian Julián Villabona-Arenas, José A. Usme-Ciro, Carlos Franco-Muñoz, Diego A. Álvarez-Díaz, Liz Stephany Villabona-Arenas, Susy Echeverría-Londoño, Zulma M. Cucunubá, Nicolás D. Franco-Sierra, Astrid C. Flórez, Carolina Ferro, Nadim J. Ajami, Diana Marcela Walteros, Franklin Prieto, Carlos Andrés Durán, Martha Lucia Ospina-Martínez, Marcela Mercado-Reyes</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2020)</span><br>
+    <a href="./publications/Laiton-Donato2020.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.3201/eid2612.202969" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="12" data-categories="" data-listing-file-modified-sort="1732632580498" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
+    <span class="listing-title lead">Plant Functional Diversity and the Biogeography of Biomes in North and South America</span><br>
+    <span class="listing-author">Susy Echeverria-Londono, Brian J. Enquist, Danilo M. Neves, Cyrille Violle, Brad Boyle, Nathan J. B. Kraft, Brian S. Maitner, Brian McGill, Robert K. Peet, Brody Sandel, Stephen A. Smith, Jens-Christian Svenning, Susan K. Wiser, Andrew J. Kerkhoff</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2018)</span><br>
+    <a href="./publications/Echeverria-Londono2018.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.3389/fevo.2018.00219" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="13" data-categories="" data-listing-file-modified-sort="1732632580518" data-listing-reading-time-sort="8" data-listing-word-count-sort="1490">
+    <span class="listing-title lead">The database of the <scp>PREDICTS</scp> (Projecting Responses of Ecological Diversity In Changing Terrestrial Systems) project</span><br>
+    <span class="listing-author">Lawrence N. Hudson, Tim Newbold, Sara Contu, Samantha L. L. Hill, Igor Lysenko, Adriana De Palma, Helen R. P. Phillips, Tamera I. Alhusseini, Felicity E. Bedford, Dominic J. Bennett, Hollie Booth, Victoria J. Burton, Charlotte W. T. Chng, Argyrios Choimes, David L. P. Correia, Julie Day, Susy Echeverría‐Londoño, Susan R. Emerson, Di Gao, Morgan Garon, Michelle L. K. Harrison, Daniel J. Ingram, Martin Jung, Victoria Kemp, Lucinda Kirkpatrick, Callum D. Martin, Yuan Pan, Gwilym D. Pask‐Hale, Edwin L. Pynegar, Alexandra N. Robinson, Katia Sanchez‐Ortiz, Rebecca A. Senior, Benno I. Simmons, Hannah J. White, Hanbin Zhang, Job Aben, Stefan Abrahamczyk, Gilbert B. Adum, Virginia Aguilar‐Barquero, Marcelo A. Aizen, Belén Albertos, E. L. Alcala, Maria del Mar Alguacil, Audrey Alignier, Marc Ancrenaz, Alan N. Andersen, Enrique Arbeláez‐Cortés, Inge Armbrecht, Víctor Arroyo‐Rodríguez, Tom Aumann, Jan C. Axmacher, Badrul Azhar, Adrián B. Azpiroz, Lander Baeten, Adama Bakayoko, András Báldi, John E. Banks, Sharad K. Baral, Jos Barlow, Barbara I. P. Barratt, Lurdes Barrico, Paola Bartolommei, Diane M. Barton, Yves Basset, Péter Batáry, Adam J. Bates, Bruno Baur, Erin M. Bayne, Pedro Beja, Suzan Benedick, Åke Berg, Henry Bernard, Nicholas J. Berry, Dinesh Bhatt, Jake E. Bicknell, Jochen H. Bihn, Robin J. Blake, Kadiri S. Bobo, Roberto Bóçon, Teun Boekhout, Katrin Böhning‐Gaese, Kevin J. Bonham, Paulo A. V. Borges, Sérgio H. Borges, Céline Boutin, Jérémy Bouyer, Cibele Bragagnolo, Jodi S. Brandt, Francis Q. Brearley, Isabel Brito, Vicenç Bros, Jörg Brunet, Grzegorz Buczkowski, Christopher M. Buddle, Rob Bugter, Erika Buscardo, Jörn Buse, Jimmy Cabra‐García, Nilton C. Cáceres, Nicolette L. Cagle, María Calviño‐Cancela, Sydney A. Cameron, Eliana M. Cancello, Rut Caparrós, Pedro Cardoso, Dan Carpenter, Tiago F. Carrijo, Anelena L. Carvalho, Camila R. Cassano, Helena Castro, Alejandro A. Castro‐Luna, Cerda B. Rolando, Alexis Cerezo, Kim Alan Chapman, Matthieu Chauvat, Morten Christensen, Francis M. Clarke, Daniel F.R. Cleary, Giorgio Colombo, Stuart P. Connop, Michael D. Craig, Leopoldo Cruz‐López, Saul A. Cunningham, Biagio D'Aniello, Neil D'Cruze, Pedro Giovâni da Silva, Martin Dallimer, Emmanuel Danquah, Ben Darvill, Jens Dauber, Adrian L. V. Davis, Jeff Dawson, Claudio de Sassi, Benoit de Thoisy, Olivier Deheuvels, Alain Dejean, Jean‐Louis Devineau, Tim Diekötter, Jignasu V. Dolia, Erwin Domínguez, Yamileth Dominguez‐Haydar, Silvia Dorn, Isabel Draper, Niels Dreber, Bertrand Dumont, Simon G. Dures, Mats Dynesius, Lars Edenius, Paul Eggleton, Felix Eigenbrod, Zoltán Elek, Martin H. Entling, Karen J. Esler, Ricardo F. de Lima, Aisyah Faruk, Nina Farwig, Tom M. Fayle, Antonio Felicioli, Annika M. Felton, Roderick J. Fensham, Ignacio C. Fernandez, Catarina C. Ferreira, Gentile F. Ficetola, Cristina Fiera, Bruno K. C. Filgueiras, Hüseyin K. Fırıncıoğlu, David Flaspohler, Andreas Floren, Steven J. Fonte, Anne Fournier, Robert E. Fowler, Markus Franzén, Lauchlan H. Fraser, Gabriella M. Fredriksson, Geraldo B. Freire, Tiago L. M. Frizzo, Daisuke Fukuda, Dario Furlani, René Gaigher, Jörg U. Ganzhorn, Karla P. García, Juan C. Garcia‐R, Jenni G. Garden, Ricardo Garilleti, Bao‐Ming Ge, Benoit Gendreau‐Berthiaume, Philippa J. Gerard, Carla Gheler‐Costa, Benjamin Gilbert, Paolo Giordani, Simonetta Giordano, Carly Golodets, Laurens G. L. Gomes, Rachelle K. Gould, Dave Goulson, Aaron D. Gove, Laurent Granjon, Ingo Grass, Claudia L. Gray, James Grogan, Weibin Gu, Moisès Guardiola, Nihara R. Gunawardene, Alvaro G. Gutierrez, Doris L. Gutiérrez‐Lamus, Daniela H. Haarmeyer, Mick E. Hanley, Thor Hanson, Nor R. Hashim, Shombe N. Hassan, Richard G. Hatfield, Joseph E. Hawes, Matt W. Hayward, Christian Hébert, Alvin J. Helden, John‐André Henden, Philipp Henschel, Lionel Hernández, James P. Herrera, Farina Herrmann, Felix Herzog, Diego Higuera‐Diaz, Branko Hilje, Hubert Höfer, Anke Hoffmann, Finbarr G. Horgan, Elisabeth Hornung, Roland Horváth, Kristoffer Hylander, Paola Isaacs‐Cubides, Hiroaki Ishida, Masahiro Ishitani, Carmen T. Jacobs, Víctor J. Jaramillo, Birgit Jauker, F. Jiménez Hernández, McKenzie F. Johnson, Virat Jolli, Mats Jonsell, S. Nur Juliani, Thomas S. Jung, Vena Kapoor, Heike Kappes, Vassiliki Kati, Eric Katovai, Klaus Kellner, Michael Kessler, Kathryn R. Kirby, Andrew M. Kittle, Mairi E. Knight, Eva Knop, Florian Kohler, Matti Koivula, Annette Kolb, Mouhamadou Kone, Ádám Kőrösi, Jochen Krauss, Ajith Kumar, Raman Kumar, David J. Kurz, Alex S. Kutt, Thibault Lachat, Victoria Lantschner, Francisco Lara, Jesse R. Lasky, Steven C. Latta, William F. Laurance, Patrick Lavelle, Violette Le Féon, Gretchen LeBuhn, Jean‐Philippe Légaré, Valérie Lehouck, María V. Lencinas, Pia E. Lentini, Susan G. Letcher, Qi Li, Simon A. Litchwark, Nick A. Littlewood, Yunhui Liu, Nancy Lo‐Man‐Hung, Carlos A. López‐Quintero, Mounir Louhaichi, Gabor L. Lövei, Manuel Esteban Lucas‐Borja, Victor H. Luja, Matthew S. Luskin, M Cristina MacSwiney G, Kaoru Maeto, Tibor Magura, Neil Aldrin Mallari, Louise A. Malone, Patrick K. Malonza, Jagoba Malumbres‐Olarte, Salvador Mandujano, Inger E. Måren, Erika Marin‐Spiotta, Charles J. Marsh, E. J. P. Marshall, Eliana Martínez, Guillermo Martínez Pastur, David Moreno Mateos, Margaret M. Mayfield, Vicente Mazimpaka, Jennifer L. McCarthy, Kyle P. McCarthy, Quinn S. McFrederick, Sean McNamara, Nagore G. Medina, Rafael Medina, Jose L. Mena, Estefania Mico, Grzegorz Mikusinski, Jeffrey C. Milder, James R. Miller, Daniel R. Miranda‐Esquivel, Melinda L. Moir, Carolina L. Morales, Mary N. Muchane, Muchai Muchane, Sonja Mudri‐Stojnic, A. Nur Munira, Antonio Muoñz‐Alonso, B. F. Munyekenye, Robin Naidoo, A. Naithani, Michiko Nakagawa, Akihiro Nakamura, Yoshihiro Nakashima, Shoji Naoe, Guiomar Nates‐Parra, Dario A. Navarrete Gutierrez, Luis Navarro‐Iriarte, Paul K. Ndang'ang'a, Eike L. Neuschulz, Jacqueline T. Ngai, Violaine Nicolas, Sven G. Nilsson, Norbertas Noreika, Olivia Norfolk, Jorge Ari Noriega, David A. Norton, Nicole M. Nöske, A. Justin Nowakowski, Catherine Numa, Niall O'Dea, Patrick J. O'Farrell, William Oduro, Sabine Oertli, Caleb Ofori‐Boateng, Christopher Omamoke Oke, Vicencio Oostra, Lynne M. Osgathorpe, Samuel Eduardo Otavo, Navendu V. Page, Juan Paritsis, Alejandro Parra‐H, Luke Parry, Guy Pe'er, Peter B. Pearman, Nicolás Pelegrin, Raphaël Pélissier, Carlos A. Peres, Pablo L. Peri, Anna S. Persson, Theodora Petanidou, Marcell K. Peters, Rohan S. Pethiyagoda, Ben Phalan, T. Keith Philips, Finn C. Pillsbury, Jimmy Pincheira‐Ulbrich, Eduardo Pineda, Joan Pino, Jaime Pizarro‐Araya, A. J. Plumptre, Santiago L. Poggio, Natalia Politi, Pere Pons, Katja Poveda, Eileen F. Power, Steven J. Presley, Vânia Proença, Marino Quaranta, Carolina Quintero, Romina Rader, B. R. Ramesh, Martha P. Ramirez‐Pinilla, Jai Ranganathan, Claus Rasmussen, Nicola A. Redpath‐Downing, J. Leighton Reid, Yana T. Reis, José M. Rey Benayas, Juan Carlos Rey‐Velasco, Chevonne Reynolds, Danilo Bandini Ribeiro, Miriam H. Richards, Barbara A. Richardson, Michael J. Richardson, Rodrigo Macip Ríos, Richard Robinson, Carolina A. Robles, Jörg Römbke, Luz Piedad Romero‐Duque, Matthias Rös, Loreta Rosselli, Stephen J. Rossiter, Dana S. Roth, T'ai H. Roulston, Laurent Rousseau, André V. Rubio, Jean‐Claude Ruel, Jonathan P. Sadler, Szabolcs Sáfián, Romeo A. Saldaña‐Vázquez, Katerina Sam, Ulrika Samnegård, Joana Santana, Xavier Santos, Jade Savage, Nancy A. Schellhorn, Menno Schilthuizen, Ute Schmiedel, Christine B. Schmitt, Nicole L. Schon, Christof Schüepp, Katharina Schumann, Oliver Schweiger, Dawn M. Scott, Kenneth A. Scott, Jodi L. Sedlock, Steven S. Seefeldt, Ghazala Shahabuddin, Graeme Shannon, Douglas Sheil, Frederick H. Sheldon, Eyal Shochat, Stefan J. Siebert, Fernando A. B. Silva, Javier A. Simonetti, Eleanor M. Slade, Jo Smith, Allan H. Smith‐Pardo, Navjot S. Sodhi, Eduardo J. Somarriba, Ramón A. Sosa, Grimaldo Soto Quiroga, Martin‐Hugues St‐Laurent, Brian M. Starzomski, Constanti Stefanescu, Ingolf Steffan‐Dewenter, Philip C. Stouffer, Jane C. Stout, Ayron M. Strauch, Matthew J. Struebig, Zhimin Su, Marcela Suarez‐Rubio, Shinji Sugiura, Keith S. Summerville, Yik‐Hei Sung, Hari Sutrisno, Jens‐Christian Svenning, Tiit Teder, Caragh G. Threlfall, Anu Tiitsaar, Jacqui H. Todd, Rebecca K. Tonietto, Ignasi Torre, Béla Tóthmérész, Teja Tscharntke, Edgar C. Turner, Jason M. Tylianakis, Marcio Uehara‐Prado, Nicolas Urbina‐Cardona, Denis Vallan, Adam J. Vanbergen, Heraldo L. Vasconcelos, Kiril Vassilev, Hans A. F. Verboven, Maria João Verdasca, José R. Verdú, Carlos H. Vergara, Pablo M. Vergara, Jort Verhulst, Massimiliano Virgilio, Lien Van Vu, Edward M. Waite, Tony R. Walker, Hua‐Feng Wang, Yanping Wang, James I. Watling, Britta Weller, Konstans Wells, Catrin Westphal, Edward D. Wiafe, Christopher D. Williams, Michael R. Willig, John C. Z. Woinarski, Jan H. D. Wolf, Volkmar Wolters, Ben A. Woodcock, Jihua Wu, Joseph M. Wunderle, Yuichi Yamaura, Satoko Yoshikura, Douglas W. Yu, Andrey S. Zaitsev, Juliane Zeidler, Fasheng Zou, Ben Collen, Rob M. Ewers, Georgina M. Mace, Drew W. Purves, Jörn P. W. Scharlemann, Andy Purvis</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2017)</span><br>
+    <a href="./publications/Hudson2017.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.1002/ece3.2579" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="14" data-categories="" data-listing-file-modified-sort="1732632580521" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
+    <span class="listing-title lead">Modelling and projecting the response of local assemblage composition to land use change across Colombia</span><br>
+    <span class="listing-author">Susy Echeverria-Londono, Tim Newbold, Lawrence N. Hudson, Sara Contu, Samantha L. L. Hill, Igor Lysenko, Enrique Arbeláez‐Cortés, Inge Armbrecht, Teun Boekhout, Jimmy Cabra‐García, Yamileth Dominguez‐Haydar, Guiomar Nates‐Parra, Doris L. Gutiérrez‐Lamus, Diego Higuera, Paola Johanna Isaacs‐Cubides, Carlos A. López‐Quintero, Eliana Martinez, Daniel Rafael Miranda‐Esquivel, Luis Eduardo Navarro‐Iriarte, Jorge Ari Noriega, Samuel Eduardo Otavo, Alejandro Parra‐H, Katja Poveda, Martha P. Ramirez‐Pinilla, Juan Carlos Rey‐Velasco, Loreta Rosselli, Allan H. Smith‐Pardo, José Nicolás Urbina‐Cardona, Andy Purvis</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2016)</span><br>
+    <a href="./publications/Echeverria-Londono2016.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.1111/ddi.12478" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="15" data-categories="" data-listing-file-modified-sort="1732632580523" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
+    <span class="listing-title lead">Global effects of land use on local terrestrial biodiversity</span><br>
+    <span class="listing-author">Tim Newbold, Lawrence N. Hudson, Samantha L. L. Hill, Sara Contu, Igor Lysenko, Rebecca A. Senior, Luca Börger, Dominic J. Bennett, Argyrios Choimes, Ben Collen, Julie Day, Adriana De Palma, Sandra Díaz, Susy Echeverria-Londoño, Melanie J. Edgar, Anat Feldman, Morgan Garon, Michelle L. K. Harrison, Tamera Alhusseini, Daniel J. Ingram, Yuval Itescu, Jens Kattge, Victoria Kemp, Lucinda Kirkpatrick, Michael Kleyer, David Laginha Pinto Correia, Callum D. Martin, Shai Meiri, Maria Novosolov, Yuan Pan, Helen R. P. Phillips, Drew W. Purves, Alexandra Robinson, Jake Simpson, Sean L. Tuck, Evan Weiher, Hannah J. White, Robert M. Ewers, Georgina M. Mace, Jörn P. W. Scharlemann, Andy Purvis</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2015)</span><br>
+    <a href="./publications/Newbold2015.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.1038/nature14324" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="16" data-categories="" data-listing-file-modified-sort="1732632580532" data-listing-reading-time-sort="5" data-listing-word-count-sort="900">
+    <span class="listing-title lead">The PREDICTS database: a global database of how local terrestrial biodiversity responds to human impacts</span><br>
+    <span class="listing-author">Lawrence N. Hudson, Tim Newbold, Sara Contu, Samantha L. L. Hill, Igor Lysenko, Adriana De Palma, Helen R. P. Phillips, Rebecca A. Senior, Dominic J. Bennett, Hollie Booth, Argyrios Choimes, David L. P. Correia, Julie Day, Susy Echeverría‐Londoño, Morgan Garon, Michelle L. K. Harrison, Daniel J. Ingram, Martin Jung, Victoria Kemp, Lucinda Kirkpatrick, Callum D. Martin, Yuan Pan, Hannah J. White, Job Aben, Stefan Abrahamczyk, Gilbert B. Adum, Virginia Aguilar‐Barquero, Marcelo A. Aizen, Marc Ancrenaz, Enrique Arbeláez‐Cortés, Inge Armbrecht, Badrul Azhar, Adrián B. Azpiroz, Lander Baeten, András Báldi, John E. Banks, Jos Barlow, Péter Batáry, Adam J. Bates, Erin M. Bayne, Pedro Beja, Åke Berg, Nicholas J. Berry, Jake E. Bicknell, Jochen H. Bihn, Katrin Böhning‐Gaese, Teun Boekhout, Céline Boutin, Jérémy Bouyer, Francis Q. Brearley, Isabel Brito, Jörg Brunet, Grzegorz Buczkowski, Erika Buscardo, Jimmy Cabra‐García, María Calviño‐Cancela, Sydney A. Cameron, Eliana M. Cancello, Tiago F. Carrijo, Anelena L. Carvalho, Helena Castro, Alejandro A. Castro‐Luna, Rolando Cerda, Alexis Cerezo, Matthieu Chauvat, Frank M. Clarke, Daniel F. R. Cleary, Stuart P. Connop, Biagio D'Aniello, Pedro Giovâni da Silva, Ben Darvill, Jens Dauber, Alain Dejean, Tim Diekötter, Yamileth Dominguez‐Haydar, Carsten F. Dormann, Bertrand Dumont, Simon G. Dures, Mats Dynesius, Lars Edenius, Zoltán Elek, Martin H. Entling, Nina Farwig, Tom M. Fayle, Antonio Felicioli, Annika M. Felton, Gentile F. Ficetola, Bruno K. C. Filgueiras, Steven J. Fonte, Lauchlan H. Fraser, Daisuke Fukuda, Dario Furlani, Jörg U. Ganzhorn, Jenni G. Garden, Carla Gheler‐Costa, Paolo Giordani, Simonetta Giordano, Marco S. Gottschalk, Dave Goulson, Aaron D. Gove, James Grogan, Mick E. Hanley, Thor Hanson, Nor R. Hashim, Joseph E. Hawes, Christian Hébert, Alvin J. Helden, John‐André Henden, Lionel Hernández, Felix Herzog, Diego Higuera‐Diaz, Branko Hilje, Finbarr G. Horgan, Roland Horváth, Kristoffer Hylander, Paola Isaacs‐Cubides, Masahiro Ishitani, Carmen T. Jacobs, Víctor J. Jaramillo, Birgit Jauker, Mats Jonsell, Thomas S. Jung, Vena Kapoor, Vassiliki Kati, Eric Katovai, Michael Kessler, Eva Knop, Annette Kolb, Ádám Kőrösi, Thibault Lachat, Victoria Lantschner, Violette Le Féon, Gretchen LeBuhn, Jean‐Philippe Légaré, Susan G. Letcher, Nick A. Littlewood, Carlos A. López‐Quintero, Mounir Louhaichi, Gabor L. Lövei, Manuel Esteban Lucas‐Borja, Victor H. Luja, Kaoru Maeto, Tibor Magura, Neil Aldrin Mallari, Erika Marin‐Spiotta, E. J. P. Marshall, Eliana Martínez, Margaret M. Mayfield, Grzegorz Mikusinski, Jeffrey C. Milder, James R. Miller, Carolina L. Morales, Mary N. Muchane, Muchai Muchane, Robin Naidoo, Akihiro Nakamura, Shoji Naoe, Guiomar Nates‐Parra, Dario A. Navarrete Gutierrez, Eike L. Neuschulz, Norbertas Noreika, Olivia Norfolk, Jorge Ari Noriega, Nicole M. Nöske, Niall O'Dea, William Oduro, Caleb Ofori‐Boateng, Chris O. Oke, Lynne M. Osgathorpe, Juan Paritsis, Alejandro Parra‐H, Nicolás Pelegrin, Carlos A. Peres, Anna S. Persson, Theodora Petanidou, Ben Phalan, T. Keith Philips, Katja Poveda, Eileen F. Power, Steven J. Presley, Vânia Proença, Marino Quaranta, Carolina Quintero, Nicola A. Redpath‐Downing, J. Leighton Reid, Yana T. Reis, Danilo B. Ribeiro, Barbara A. Richardson, Michael J. Richardson, Carolina A. Robles, Jörg Römbke, Luz Piedad Romero‐Duque, Loreta Rosselli, Stephen J. Rossiter, T'ai H. Roulston, Laurent Rousseau, Jonathan P. Sadler, Szabolcs Sáfián, Romeo A. Saldaña‐Vázquez, Ulrika Samnegård, Christof Schüepp, Oliver Schweiger, Jodi L. Sedlock, Ghazala Shahabuddin, Douglas Sheil, Fernando A. B. Silva, Eleanor M. Slade, Allan H. Smith‐Pardo, Navjot S. Sodhi, Eduardo J. Somarriba, Ramón A. Sosa, Jane C. Stout, Matthew J. Struebig, Yik‐Hei Sung, Caragh G. Threlfall, Rebecca Tonietto, Béla Tóthmérész, Teja Tscharntke, Edgar C. Turner, Jason M. Tylianakis, Adam J. Vanbergen, Kiril Vassilev, Hans A. F. Verboven, Carlos H. Vergara, Pablo M. Vergara, Jort Verhulst, Tony R. Walker, Yanping Wang, James I. Watling, Konstans Wells, Christopher D. Williams, Michael R. Willig, John C. Z. Woinarski, Jan H. D. Wolf, Ben A. Woodcock, Douglas W. Yu, Andrey S. Zaitsev, Ben Collen, Rob M. Ewers, Georgina M. Mace, Drew W. Purves, Jörn P. W. Scharlemann, Andy Purvis</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2014)</span><br>
+    <a href="./publications/Hudson2014.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.1002/ece3.1303" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+  <li data-index="17" data-categories="" data-listing-file-modified-sort="1732632580534" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+    <span class="listing-title lead">MartiTracks: A Geometrical Approach for Identifying Geographical Patterns of Distribution</span><br>
+    <span class="listing-author">Susy Echeverria-Londono, Daniel Rafael Miranda-Esquivel</span><br>
+    <span class="listing-publication fst-italic "></span>
+    <span class="listing-year">(2011)</span><br>
+    <a href="./publications/Echeverria-Londono2011.html" class="btn btn-primary">
+      Details
+    </a>
+    
+    <a href="10.1371/journal.pone.0018460" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+      DOI
+    </a>
+    
+    
+    
+  </li>
+
+</ul>
+
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+<nav id="articles-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

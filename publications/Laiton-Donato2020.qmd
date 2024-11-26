@@ -1,0 +1,15 @@
+---
+title: "Genomic Epidemiology of Severe Acute Respiratory Syndrome Coronavirus 2, Colombia"
+type: "article"
+author: "Katherine Laiton-Donato, Christian Julián Villabona-Arenas, José A. Usme-Ciro, Carlos Franco-Muñoz, Diego A. Álvarez-Díaz, Liz Stephany Villabona-Arenas, Susy Echeverría-Londoño, Zulma M. Cucunubá, Nicolás D. Franco-Sierra, Astrid C. Flórez, Carolina Ferro, Nadim J. Ajami, Diana Marcela Walteros, Franklin Prieto, Carlos Andrés Durán, Martha Lucia Ospina-Martínez, Marcela Mercado-Reyes"
+year: "2020"
+doi: "10.3201/eid2612.202969"
+categories: []
+---
+
+# Abstract
+No abstract available.
+
+# Citation (APA)
+Katherine Laiton-Donato, Christian Julián Villabona-Arenas, José A. Usme-Ciro, Carlos Franco-Muñoz, Diego A. Álvarez-Díaz, Liz Stephany Villabona-Arenas, Susy Echeverría-Londoño, Zulma M. Cucunubá, Nicolás D. Franco-Sierra, Astrid C. Flórez, Carolina Ferro, Nadim J. Ajami, Diana Marcela Walteros, Franklin Prieto, Carlos Andrés Durán, Martha Lucia Ospina-Martínez, Marcela Mercado-Reyes (2020). Genomic Epidemiology of Severe Acute Respiratory Syndrome Coronavirus 2, Colombia *Emerging Infectious Diseases*, 26(12), 2854-2862. 10.3201/eid2612.202969
+

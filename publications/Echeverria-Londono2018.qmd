@@ -1,0 +1,15 @@
+---
+title: "Plant Functional Diversity and the Biogeography of Biomes in North and South America"
+type: "article"
+author: "Susy Echeverria-Londono, Brian J. Enquist, Danilo M. Neves, Cyrille Violle, Brad Boyle, Nathan J. B. Kraft, Brian S. Maitner, Brian McGill, Robert K. Peet, Brody Sandel, Stephen A. Smith, Jens-Christian Svenning, Susan K. Wiser, Andrew J. Kerkhoff"
+year: "2018"
+doi: "10.3389/fevo.2018.00219"
+categories: []
+---
+
+# Abstract
+No abstract available.
+
+# Citation (APA)
+Susy Echeverria-Londono, Brian J. Enquist, Danilo M. Neves, Cyrille Violle, Brad Boyle, Nathan J. B. Kraft, Brian S. Maitner, Brian McGill, Robert K. Peet, Brody Sandel, Stephen A. Smith, Jens-Christian Svenning, Susan K. Wiser, Andrew J. Kerkhoff (2018). Plant Functional Diversity and the Biogeography of Biomes in North and South America *Frontiers in Ecology and Evolution*, 6(NA), NA. 10.3389/fevo.2018.00219
+

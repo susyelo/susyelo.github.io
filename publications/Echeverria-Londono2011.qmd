@@ -1,0 +1,15 @@
+---
+title: "MartiTracks: A Geometrical Approach for Identifying Geographical Patterns of Distribution"
+type: "article"
+author: "Susy Echeverria-Londono, Daniel Rafael Miranda-Esquivel"
+year: "2011"
+doi: "10.1371/journal.pone.0018460"
+categories: []
+---
+
+# Abstract
+No abstract available.
+
+# Citation (APA)
+Susy Echeverria-Londono, Daniel Rafael Miranda-Esquivel (2011). MartiTracks: A Geometrical Approach for Identifying Geographical Patterns of Distribution *PLoS ONE*, 6(4), e18460. 10.1371/journal.pone.0018460
+

@@ -1,0 +1,15 @@
+---
+title: "COVID-19 Related Immunisation Disruptions from 2020-2030: Projecting Health Impact and Mitigation Strategies for 14 Pathogens Across 112 Low- and Middle-Income Countries"
+type: "article"
+author: "Anna-Maria Hartner, Xiang Li, Susy Echeverria-Londono, Jeremy Roth, Kaja Abbas, Megan Auzenbergs, Margaret J. de Villiers, Matthew Ferrari, Keith Fraser, Han Fu, Timothy B. Hallett, Wes Hinsley, Mark Jit, Andromachi Karachaliou Prasinou, Sean Moore, Shevanthi Nayagam, Timos Papadopoulos, T. Alex Perkins, Allison Portnoy, Quan Minh Tran, Emilia Vynnycky, Amy K. Winter, Holly Burrows, Cythia Chen, Hannah E. Clapham, Aniruddha Deshpande, Sarah Hauryski, John Huber, Kévin Jean, Chaelin Kim, Jong-Hoon Kim, Jemima Koh, Ben Lopman, Virginia E. Pitzer, Yvonne Tam, Philipp Lambach, So Yoon Sim, Kim Woodruff, Neil M. Ferguson, Caroline Trotter, Katy A.M. Gaythorpe"
+year: "2023"
+doi: "10.2139/ssrn.4492698"
+categories: []
+---
+
+# Abstract
+No abstract available.
+
+# Citation (APA)
+Anna-Maria Hartner, Xiang Li, Susy Echeverria-Londono, Jeremy Roth, Kaja Abbas, Megan Auzenbergs, Margaret J. de Villiers, Matthew Ferrari, Keith Fraser, Han Fu, Timothy B. Hallett, Wes Hinsley, Mark Jit, Andromachi Karachaliou Prasinou, Sean Moore, Shevanthi Nayagam, Timos Papadopoulos, T. Alex Perkins, Allison Portnoy, Quan Minh Tran, Emilia Vynnycky, Amy K. Winter, Holly Burrows, Cythia Chen, Hannah E. Clapham, Aniruddha Deshpande, Sarah Hauryski, John Huber, Kévin Jean, Chaelin Kim, Jong-Hoon Kim, Jemima Koh, Ben Lopman, Virginia E. Pitzer, Yvonne Tam, Philipp Lambach, So Yoon Sim, Kim Woodruff, Neil M. Ferguson, Caroline Trotter, Katy A.M. Gaythorpe (2023). COVID-19 Related Immunisation Disruptions from 2020-2030: Projecting Health Impact and Mitigation Strategies for 14 Pathogens Across 112 Low- and Middle-Income Countries *NA*, NA(NA), NA. 10.2139/ssrn.4492698
+

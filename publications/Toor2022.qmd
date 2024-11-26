@@ -1,0 +1,15 @@
+---
+title: "COVID-19 impact on routine immunisations for vaccine-preventable diseases: Projecting the effect of different routes to recovery"
+type: "article"
+author: "Jaspreet Toor, Xiang Li, Mark Jit, Caroline L. Trotter, Susy Echeverria-Londono, Anna-Maria Hartner, Jeremy Roth, Allison Portnoy, Kaja Abbas, Neil M. Ferguson, Katy AM Gaythorpe"
+year: "2022"
+doi: "10.1016/j.vaccine.2022.05.074"
+categories: []
+---
+
+# Abstract
+No abstract available.
+
+# Citation (APA)
+Jaspreet Toor, Xiang Li, Mark Jit, Caroline L. Trotter, Susy Echeverria-Londono, Anna-Maria Hartner, Jeremy Roth, Allison Portnoy, Kaja Abbas, Neil M. Ferguson, Katy AM Gaythorpe (2022). COVID-19 impact on routine immunisations for vaccine-preventable diseases: Projecting the effect of different routes to recovery *Vaccine*, 40(31), 4142-4149. 10.1016/j.vaccine.2022.05.074
+
