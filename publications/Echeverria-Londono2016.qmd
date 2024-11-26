@@ -1,7 +1,7 @@
 ---
 title: "Modelling and projecting the response of local assemblage composition to land use change across Colombia"
 type: "article"
-author: "Susy Echeverria-Londono, Tim Newbold, Lawrence N. Hudson, Sara Contu, Samantha L. L. Hill, Igor Lysenko, Enrique Arbeláez‐Cortés, Inge Armbrecht, Teun Boekhout, Jimmy Cabra‐García, Yamileth Dominguez‐Haydar, Guiomar Nates‐Parra, Doris L. Gutiérrez‐Lamus, Diego Higuera, Paola Johanna Isaacs‐Cubides, Carlos A. López‐Quintero, Eliana Martinez, Daniel Rafael Miranda‐Esquivel, Luis Eduardo Navarro‐Iriarte, Jorge Ari Noriega, Samuel Eduardo Otavo, Alejandro Parra‐H, Katja Poveda, Martha P. Ramirez‐Pinilla, Juan Carlos Rey‐Velasco, Loreta Rosselli, Allan H. Smith‐Pardo, José Nicolás Urbina‐Cardona, Andy Purvis"
+author: "Susy Echeverria-Londono, Tim Newbold, Lawrence N. Hudson, Sara Contu, Samantha L. L. Hill, Igor Lysenko, Enrique Arbeláez‐Cortés, Inge Armbrecht, Teun Boekhout, Jimmy Cabra‐García, Yamileth Dominguez‐Haydar, Guiomar Nates‐Parra, Doris L. Gutierrez‐Lamus, Diego Higuera, Paola Johanna Isaacs‐Cubides, Carlos A. Lopez‐Quintero, Eliana Martinez, Daniel Rafael Miranda‐Esquivel, Luis Eduardo Navarro‐Iriarte, Jorge Ari Noriega, Samuel Eduardo Otavo, Alejandro Parra‐H, Katja Poveda, Martha P. Ramirez‐Pinilla, Juan Carlos Rey‐Velasco, Loreta Rosselli, Allan H. Smith‐Pardo, Jose Nicolas Urbina‐Cardona, Andy Purvis"
 year: "2016"
 doi: "10.1111/ddi.12478"
 categories: []
@@ -11,5 +11,5 @@ categories: []
 No abstract available.
 
 # Citation (APA)
-Susy Echeverria-Londono, Tim Newbold, Lawrence N. Hudson, Sara Contu, Samantha L. L. Hill, Igor Lysenko, Enrique Arbeláez‐Cortés, Inge Armbrecht, Teun Boekhout, Jimmy Cabra‐García, Yamileth Dominguez‐Haydar, Guiomar Nates‐Parra, Doris L. Gutiérrez‐Lamus, Diego Higuera, Paola Johanna Isaacs‐Cubides, Carlos A. López‐Quintero, Eliana Martinez, Daniel Rafael Miranda‐Esquivel, Luis Eduardo Navarro‐Iriarte, Jorge Ari Noriega, Samuel Eduardo Otavo, Alejandro Parra‐H, Katja Poveda, Martha P. Ramirez‐Pinilla, Juan Carlos Rey‐Velasco, Loreta Rosselli, Allan H. Smith‐Pardo, José Nicolás Urbina‐Cardona, Andy Purvis (2016). Modelling and projecting the response of local assemblage composition to land use change across Colombia *Diversity and Distributions*, 22(11), 1099-1111. 10.1111/ddi.12478
+Susy Echeverria-Londono, Tim Newbold, Lawrence N. Hudson, Sara Contu, Samantha L. L. Hill, Igor Lysenko, Enrique Arbeláez‐Cortés, Inge Armbrecht, Teun Boekhout, Jimmy Cabra‐García, Yamileth Dominguez‐Haydar, Guiomar Nates‐Parra, Doris L. Gutierrez‐Lamus, Diego Higuera, Paola Johanna Isaacs‐Cubides, Carlos A. Lopez‐Quintero, Eliana Martinez, Daniel Rafael Miranda‐Esquivel, Luis Eduardo Navarro‐Iriarte, Jorge Ari Noriega, Samuel Eduardo Otavo, Alejandro Parra‐H, Katja Poveda, Martha P. Ramirez‐Pinilla, Juan Carlos Rey‐Velasco, Loreta Rosselli, Allan H. Smith‐Pardo, Jose Nicolas Urbina‐Cardona, Andy Purvis (2016). Modelling and projecting the response of local assemblage composition to land use change across Colombia *Diversity and Distributions*, 22(11), 1099-1111. 10.1111/ddi.12478
 

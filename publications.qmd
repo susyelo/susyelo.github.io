@@ -9,12 +9,14 @@ listing:
     sort:
       - "year desc"
       - "title"
-    sort-ui: [title,author,publication,year]
-    filter-ui: [title,author,publication,year]
+    sort-ui: [publication,year,title,author]
+    filter-ui: [publication,year,title,author]
     page-size: 10
     field-display-names: 
-      publication: "Publication"
       year: "Year"
+      publication: "Publication"
+    type: table
+     
 ---
 
 ```{=html}
@@ -26,6 +28,6 @@ listing:
 </nav>
 ```
 
-:::{#articles}
+:::{#publications}
 :::
 

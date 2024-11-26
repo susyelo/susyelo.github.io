@@ -7,19 +7,19 @@ website:
     right:
       - href: index.qmd
         text: About
+      - href: experience.qmd
+        text: Experience
       - href: education.qmd
         text: Education
       - href: publications.qmd
         text: Publications
       - href: visualisations.qmd
         text: Visualisations
+    page-footer: "Copyright 2024 &copy; Susy Echeverria-Londono"
 
 
 format:
   html:
-    theme: [sandstone, _variables.scss]
-    toc: true
+    theme: cosmo
+    css: styles.css
     link-external-newwindow: true
-    
-
-editor: source

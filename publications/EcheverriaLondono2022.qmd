@@ -1,0 +1,15 @@
+---
+title: "Exploring the subnational inequality and heterogeneity of the impact of routine measles immunisation in {A}frica"
+type: "article"
+author: "Susy Echeverria-Londono, Anna-Maria Hartner, Xiang Li, Jeremy Roth, Allison Portnoy, Alyssa N. Sbarra, Kaja Abbas, Matthew Ferrari, Han Fu, Mark Jit, Neil M. Ferguson, Katy A. M. Gaythorpe"
+year: "2022"
+doi: "10.1016/j.vaccine.2022.09.049"
+categories: []
+---
+
+# Abstract
+Despite vaccination being one of the most effective public health interventions, there are persisting inequalities and inequities in immunisation. Understanding the differences in subnational vaccine impact can help improve delivery mechanisms and policy. We analyse subnational vaccination coverage of measles first-dose (MCV1) and estimate patterns of inequalities in impact, represented as deaths averted, across 45 countries in Africa. We also evaluate how much this impact would improve under more equitable vaccination coverage scenarios. Using coverage data for MCV1 from 2000–2019, we estimate the number of deaths averted at the first administrative level. We use the ratio of deaths averted per vaccination from two mathematical models to extrapolate the impact at a subnational level. Next, we calculate inequality for each country, measuring the spread of deaths averted across its regions, accounting for differences in population. Finally, using three more equitable vaccination coverage scenarios, we evaluate how much impact of MCV1 immunisation could improve by (1) assuming all regions in a country have at least national coverage, (2) assuming all regions have the observed maximum coverage; and (3) assuming all regions have at least 80% coverage. Our results show that progress in coverage and reducing inequality has slowed in the last decade in many African countries. Under the three scenarios, a significant number of additional deaths in children could be prevented each year; for example, under the observed maximum coverage scenario, global MCV1 coverage would improve from 76% to 90%, resulting in a further 363(95%CrI:299–482) deaths averted per 100,000 live births. This paper illustrates that estimates of the impact of MCV1 immunisation at a national level can mask subnational heterogeneity. We further show that a considerable number of deaths could be prevented by maximising equitable access in countries with high inequality when increasing the global coverage of MCV1 vaccination.
+
+# Citation (APA)
+Susy Echeverria-Londono, Anna-Maria Hartner, Xiang Li, Jeremy Roth, Allison Portnoy, Alyssa N. Sbarra, Kaja Abbas, Matthew Ferrari, Han Fu, Mark Jit, Neil M. Ferguson, Katy A. M. Gaythorpe (2022). Exploring the subnational inequality and heterogeneity of the impact of routine measles immunisation in {A}frica *Vaccine*, 40(47), 6806-6817. 10.1016/j.vaccine.2022.09.049
+

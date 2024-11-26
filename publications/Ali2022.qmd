@@ -1,7 +1,7 @@
 ---
 title: "Vaccine equity in low and middle income countries: a systematic review and meta-analysis"
 type: "article"
-author: "Huda Ahmed Ali, Anna-Maria Hartner, Susy Echeverria-Londono, Jeremy Roth, Xiang Li, Kaja Abbas, Allison Portnoy, Emilia Vynnycky, Kim Woodruff, Neil M Ferguson, Jaspreet Toor, Katy AM Gaythorpe"
+author: "Huda Ahmed Ali, Anna-Maria Hartner, Susy Echeverria-Londono, Jeremy Roth, Xiang Li, Kaja Abbas, Allison Portnoy, Emilia Vynnycky, Kim Woodruff, Neil M. Ferguson, Jaspreet Toor, Katy A. M. Gaythorpe"
 year: "2022"
 doi: "10.1186/s12939-022-01678-5"
 categories: []
@@ -11,5 +11,5 @@ categories: []
 No abstract available.
 
 # Citation (APA)
-Huda Ahmed Ali, Anna-Maria Hartner, Susy Echeverria-Londono, Jeremy Roth, Xiang Li, Kaja Abbas, Allison Portnoy, Emilia Vynnycky, Kim Woodruff, Neil M Ferguson, Jaspreet Toor, Katy AM Gaythorpe (2022). Vaccine equity in low and middle income countries: a systematic review and meta-analysis *International Journal for Equity in Health*, 21(1), 82. 10.1186/s12939-022-01678-5
+Huda Ahmed Ali, Anna-Maria Hartner, Susy Echeverria-Londono, Jeremy Roth, Xiang Li, Kaja Abbas, Allison Portnoy, Emilia Vynnycky, Kim Woodruff, Neil M. Ferguson, Jaspreet Toor, Katy A. M. Gaythorpe (2022). Vaccine equity in low and middle income countries: a systematic review and meta-analysis *International Journal for Equity in Health*, 21(1), 82. 10.1186/s12939-022-01678-5
 

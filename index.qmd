@@ -22,23 +22,11 @@ about:
 
 ::: {.column-page}
 
-## Bio
+## About me
 
-I'm a Public Health and Environmental Research Consultant. I use large, complex datasets and multiple data-science approaches to explore patterns of public health coverage across the globe, as well as understanding the complex relationships between biodiversity, environment, and human impact. 
+As a data scientist, I apply my expertise in using large, complex datasets and multiple data-science approaches to explore patterns of public health coverage across the globe, as well as understanding the complex relationships between biodiversity, environment, and human impact. I have over ten years of experience in conducting and publishing cutting-edge research in the field of public health and life science, using various tools and methods in data analysis, GIS, and statistical modelling, particularly with R programming.
 
-I have over ten years of experience in conducting and publishing cutting-edge research in the field of public health and life science, using various tools and methods in data analysis, GIS, and statistical modelling, particularly with R programming.
-
-
-
-## Professional Experience
-
-- Research Consultant and Research Associate. Vaccine Impact Modelling Consortium (VIMC), Department of Infectious Disease Epidemiology. Imperial College London, UK.
-
-- Visiting Scholar. Biological Sciences Department. University of Pittsburgh, PA, USA.
-
-- NSF Postdoctoral Associate. Biology department. Kenyon College, OH, USA. 
-
-- Lecturer and demonstrator. The Natural History Museum and Imperial College London, UK
+My mission is to deepen the scientific understanding of the dynamic connections between biodiversity, environmental change, and human health, while supporting the development of impactful public health and conservation policies. I have collaborated with multiple academic and non-academic partners, such as Imperial College London, GAVI, BMGF, the Natural History Museum, and NSF, among others, to support interdisciplinary and cross-sectoral projects that address global challenges and opportunities in biodiversity and health.
 
 :::
 
