@@ -1,5 +1,5 @@
 ---
-title: Curriculum vitæ
+title: Curriculum vitae
 description: "Susy Echeverria-Londono's CV"
 date: 2024-11-26
 published-title: CV last updated

@@ -13,7 +13,7 @@ website:
         text: Education
       - href: publications.qmd
         text: Publications
-      - text: "CV English"
+      - text: "CV in English"
         href: "cv/index_English.qmd"
       - text: "CV en français"
         href: "cv/index_French.qmd"
