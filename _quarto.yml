@@ -13,9 +13,11 @@ website:
         text: Education
       - href: publications.qmd
         text: Publications
-      - href: visualisations.qmd
-        text: Visualisations
-    page-footer: "Copyright 2024 &copy; Susy Echeverria-Londono"
+      - text: "CV English"
+        href: "cv/index_English.qmd"
+      - text: "CV en français"
+        href: "cv/index_French.qmd"
+  page-footer: "Copyright 2024 &copy; Susy Echeverria-Londono"
 
 
 format:
