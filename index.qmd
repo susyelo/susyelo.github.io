@@ -24,9 +24,9 @@ about:
 
 ## About me
 
-As a data scientist, I apply my expertise in using large, complex datasets and multiple data-science approaches to explore patterns of public health coverage across the globe, as well as understanding the complex relationships between biodiversity, environment, and human impact. I have over ten years of experience in conducting and publishing cutting-edge research in the field of public health and life science, using various tools and methods in data analysis, GIS, and statistical modelling, particularly with R programming.
+I’m a multidisciplinary data scientist and life-science researcher specialising in spatial analysis, environmental health, and quantitative modelling. For over 10 years, I’ve integrated and analysed large, multi-source datasets (health, vaccination, environmental and biodiversity data) across scales—from local to 100+ countries—to quantify patterns, inequalities, and change over time. My work combines reproducible workflows and statistical/ML methods in R (sf, raster, ggplot2, tmap, leaflet), alongside Python, SQL, and Git, to support rigorous inference and clear communication.
 
-My mission is to deepen the scientific understanding of the dynamic connections between biodiversity, environmental change, and human health, while supporting the development of impactful public health and conservation policies. I have collaborated with multiple academic and non-academic partners, such as Imperial College London, GAVI, BMGF, the Natural History Museum, and NSF, among others, to support interdisciplinary and cross-sectoral projects that address global challenges and opportunities in biodiversity and health.
+My mission is to strengthen the evidence base at the biodiversity–environment–health interface and translate it into actionable insight for public health and conservation. I’ve collaborated with academic and policy-facing partners (including Imperial College London, WHO, Gavi, and BMGF) on interdisciplinary projects that inform strategy and decision-making. 
 
 :::
 
