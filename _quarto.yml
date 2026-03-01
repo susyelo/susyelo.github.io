@@ -19,7 +19,7 @@ website:
         href: "cv/index_English.qmd"
       - text: "CV en français"
         href: "cv/index_French.qmd"
-  page-footer: "Copyright 2024 © Susy Echeverria-Londono"
+  page-footer: "Copyright 2026 © Susy Echeverria-Londono"
 
 format:
   html:
