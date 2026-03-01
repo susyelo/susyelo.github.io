@@ -3,11 +3,9 @@ title: "Projects"
 toc: true
 ---
 
-This page highlights a selection of research projects where I combined **large-scale data integration** with **statistical modelling** in the fields of public-health, ecology and evolution. 
+::: {.panel-tabset}
 
----
-
-## Vaccine Impact Modelling Consortium (VIMC) and COVID-19 genomic epidemiology
+## Vaccine Impact Modelling Consortium (VIMC) {.tabset}
 **Subtitle:** Quantifying lives saved by vaccination and understanding disruption and pathogen spread
 
 ### Summary
@@ -32,9 +30,8 @@ Across the Vaccine Impact Modelling Consortium (VIMC), I contributed to model-ba
 ![](images/projects/eid_fig2.jpg){fig-alt="Potential routes of importation for SARS-CoV-2, Colombia." width=95%}
 
 
----
 
-## Plant diversity across the Americas: functional biogeography and habitat evolution
+## Plant diversity across the Americas {.tabset}
 **Subtitle:** Functional trait space, biome structure, and evolutionary diversity at continental scale
 
 ### Summary
@@ -55,9 +52,8 @@ Using large plant distribution and trait databases for the Americas, this work e
 ![](images/projects/biomes_fig3.png){fig-alt="Conceptual model of evolutionary diversity along gradients" width=95%}
 
 
----
 
-## Macroevolution of *Solanum*: diversification dynamics in a megadiverse plant genus
+## Macroevolution of *Solanum* {.tabset}
 **Subtitle:** Linking phylogeny, geography, and environment to explain uneven diversification through time
 
 ### Summary
@@ -79,9 +75,7 @@ In this project, I assembled distributional, ecological, and evolutionary datase
 
 Related dataset entry: Diversification analyses in *Solanum* (NHM Data Portal): https://data.nhm.ac.uk/is/dataset/diversification-analyses-in-solanum
 
-
----
-## PREDICTS: Human land-use change and biodiversity responses
+## The PREDICTS project {.tabset}
 **Subtitle:** From primary ecological surveys to global indicators of land-use-driven biodiversity change
 
 ### Summary
