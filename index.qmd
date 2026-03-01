@@ -1,6 +1,6 @@
 ---
 title: "Susy Echeverria-Londono, PhD. "
-image: images/Profile.jpg
+image: images/Profile.JPG
 about:
   template: trestles
   links:
